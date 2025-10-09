@@ -1,4 +1,4 @@
-Metadata-Version: 2.2
+Metadata-Version: 2.4
 Name: cnn_classifier
 Version: 0.0.0
 Summary: A small python package for CNN based classification of Kidney Disease
