@@ -1,2 +1,3 @@
 from cnn_classifier import logger
-logger.info("Testing the package")
+from cnn_classifier.pipeline.stage_01_data_ingestion import DataIngestionTrainingPipeline
+
