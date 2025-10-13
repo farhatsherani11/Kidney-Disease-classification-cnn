@@ -1,3 +1,7 @@
+import sys, os
+sys.path.append(os.path.join(os.getcwd(), "src"))
+
+
 from cnn_classifier import logger
 from cnn_classifier.pipeline.stage_01_data_ingestion import DataIngestionTrainingPipeline
 

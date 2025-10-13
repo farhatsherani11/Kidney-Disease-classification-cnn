@@ -33,3 +33,13 @@
 [2025-10-09 10:53:15,966 - cnn_classifier - INFO - created directory at:artifacts/data_ingestion]
 [2025-10-09 10:53:15,968 - cnn_classifier - INFO - Downloading file from :https://drive.google.com/file/d/1SxC8AFRJO0TwDWjNs9yZR4WOO6oq0jmr/view?usp=sharing into file :artifacts\data_ingestion\data.zip]
 [2025-10-09 11:09:26,319 - cnn_classifier - INFO - Downloaded data from: https://drive.google.com/file/d/1SxC8AFRJO0TwDWjNs9yZR4WOO6oq0jmr/view?usp=sharing into file :artifacts\data_ingestion\data.zip of size :~ 1589765 KB]
+[2025-10-12 11:47:59,912 - cnn_classifier - INFO - >>>>> stage Data Ingestion Stage started <<<<<]
+[2025-10-12 11:47:59,930 - cnn_classifier - INFO - yaml file:config\config.yaml loaded successfully]
+[2025-10-12 11:47:59,943 - cnn_classifier - INFO - yaml file:params.yaml loaded successfully]
+[2025-10-12 11:47:59,944 - cnn_classifier - INFO - created directory at:artifacts]
+[2025-10-12 11:47:59,948 - cnn_classifier - INFO - created directory at:artifacts/data_ingestion]
+[2025-10-12 11:47:59,950 - cnn_classifier - INFO - Downloading file from :https://drive.google.com/file/d/1SxC8AFRJO0TwDWjNs9yZR4WOO6oq0jmr/view?usp=sharing into file :artifacts\data_ingestion\data.zip]
+[2025-10-12 12:04:25,427 - cnn_classifier - INFO - Downloaded data from: https://drive.google.com/file/d/1SxC8AFRJO0TwDWjNs9yZR4WOO6oq0jmr/view?usp=sharing into file :artifacts\data_ingestion\data.zip of size :~ 1589765 KB]
+[2025-10-12 12:05:05,777 - cnn_classifier - INFO - >>>>> stage Data Ingestion Stage completed <<<<<
+
+x==========x]
