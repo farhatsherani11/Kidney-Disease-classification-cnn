@@ -43,3 +43,278 @@
 [2025-10-12 12:05:05,777 - cnn_classifier - INFO - >>>>> stage Data Ingestion Stage completed <<<<<
 
 x==========x]
+[2025-10-24 13:56:58,146 - cnn_classifier - INFO - yaml file:config\config.yaml loaded successfully]
+[2025-10-24 13:56:58,171 - cnn_classifier - INFO - yaml file:params.yaml loaded successfully]
+[2025-10-24 13:56:58,175 - cnn_classifier - INFO - created directory at:artifacts]
+[2025-10-24 14:07:11,108 - cnn_classifier - INFO - yaml file:config\config.yaml loaded successfully]
+[2025-10-24 14:07:11,114 - cnn_classifier - INFO - yaml file:params.yaml loaded successfully]
+[2025-10-24 14:07:11,117 - cnn_classifier - INFO - created directory at:artifacts]
+[2025-10-24 16:14:05,369 - cnn_classifier - INFO - yaml file:config\config.yaml loaded successfully]
+[2025-10-24 16:14:05,374 - cnn_classifier - INFO - yaml file:params.yaml loaded successfully]
+[2025-10-24 16:14:05,376 - cnn_classifier - INFO - created directory at:artifacts]
+[2025-10-24 16:20:33,088 - cnn_classifier - INFO - yaml file:config\config.yaml loaded successfully]
+[2025-10-24 16:20:33,094 - cnn_classifier - INFO - yaml file:params.yaml loaded successfully]
+[2025-10-24 16:20:33,096 - cnn_classifier - INFO - created directory at:artifacts]
+[2025-10-24 16:24:15,204 - cnn_classifier - INFO - yaml file:config\config.yaml loaded successfully]
+[2025-10-24 16:24:15,208 - cnn_classifier - INFO - yaml file:params.yaml loaded successfully]
+[2025-10-24 16:24:15,210 - cnn_classifier - INFO - created directory at:artifacts]
+[2025-10-24 16:24:15,213 - cnn_classifier - INFO - created directory at:artifacts/prepare_base_model]
+[2025-10-24 16:26:24,358 - cnn_classifier - INFO - yaml file:config\config.yaml loaded successfully]
+[2025-10-24 16:26:24,364 - cnn_classifier - INFO - yaml file:params.yaml loaded successfully]
+[2025-10-24 16:26:24,366 - cnn_classifier - INFO - created directory at:artifacts]
+[2025-10-24 16:26:24,368 - cnn_classifier - INFO - created directory at:artifacts/prepare_base_model]
+[2025-10-24 16:38:48,406 - cnn_classifier - INFO - yaml file:config\config.yaml loaded successfully]
+[2025-10-24 16:38:48,410 - cnn_classifier - INFO - yaml file:params.yaml loaded successfully]
+[2025-10-24 16:38:48,412 - cnn_classifier - INFO - created directory at:artifacts]
+[2025-10-24 16:38:48,414 - cnn_classifier - INFO - created directory at:artifacts/prepare_base_model]
+[2025-10-24 16:38:48,845 - absl - WARNING - You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. ]
+[2025-10-24 16:41:30,603 - cnn_classifier - INFO - yaml file:config\config.yaml loaded successfully]
+[2025-10-24 16:41:30,608 - cnn_classifier - INFO - yaml file:params.yaml loaded successfully]
+[2025-10-24 16:41:30,609 - cnn_classifier - INFO - created directory at:artifacts]
+[2025-10-24 16:41:30,611 - cnn_classifier - INFO - created directory at:artifacts/prepare_base_model]
+[2025-10-24 16:41:31,103 - absl - WARNING - You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. ]
+[2025-10-24 16:41:31,391 - absl - WARNING - You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. ]
+[2025-10-24 21:37:58,406 - cnn_classifier - INFO - >>>>> stage Data Ingestion Stage started <<<<<]
+[2025-10-24 21:37:58,410 - cnn_classifier - INFO - yaml file:config\config.yaml loaded successfully]
+[2025-10-24 21:37:58,412 - cnn_classifier - INFO - yaml file:params.yaml loaded successfully]
+[2025-10-24 21:37:58,413 - cnn_classifier - INFO - created directory at:artifacts]
+[2025-10-24 21:37:58,415 - cnn_classifier - INFO - created directory at:artifacts/data_ingestion]
+[2025-10-24 21:37:58,417 - cnn_classifier - INFO - Downloading file from :https://drive.google.com/file/d/1SxC8AFRJO0TwDWjNs9yZR4WOO6oq0jmr/view?usp=sharing into file :artifacts\data_ingestion\data.zip]
+[2025-10-24 22:38:09,841 - cnn_classifier - INFO - Downloaded data from: https://drive.google.com/file/d/1SxC8AFRJO0TwDWjNs9yZR4WOO6oq0jmr/view?usp=sharing into file :artifacts\data_ingestion\data.zip of size :~ 1589765 KB]
+[2025-10-24 22:38:37,337 - cnn_classifier - INFO - >>>>> stage Data Ingestion Stage completed <<<<<
+
+x==========x]
+[2025-10-24 22:38:37,338 - cnn_classifier - INFO - >>>>> stage Base Model Preparation Stage started <<<<<]
+[2025-10-24 22:38:37,343 - cnn_classifier - INFO - yaml file:config\config.yaml loaded successfully]
+[2025-10-24 22:38:37,351 - cnn_classifier - INFO - yaml file:params.yaml loaded successfully]
+[2025-10-24 22:38:37,353 - cnn_classifier - INFO - created directory at:artifacts]
+[2025-10-24 22:38:37,354 - cnn_classifier - INFO - created directory at:artifacts/prepare_base_model]
+[2025-10-24 22:38:38,053 - absl - WARNING - You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. ]
+[2025-10-24 22:38:38,346 - absl - WARNING - You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. ]
+[2025-10-24 22:38:38,535 - cnn_classifier - INFO - >>>>> stage Base Model Preparation Stage completed <<<<<
+
+x==========x]
+[2025-10-24 23:12:56,140 - cnn_classifier - INFO - yaml file:config\config.yaml loaded successfully]
+[2025-10-24 23:12:56,147 - cnn_classifier - INFO - yaml file:params.yaml loaded successfully]
+[2025-10-24 23:12:56,150 - cnn_classifier - INFO - created directory at:artifacts]
+[2025-10-24 23:15:25,877 - cnn_classifier - INFO - yaml file:config\config.yaml loaded successfully]
+[2025-10-24 23:15:25,880 - cnn_classifier - INFO - yaml file:params.yaml loaded successfully]
+[2025-10-24 23:15:25,882 - cnn_classifier - INFO - created directory at:artifacts]
+[2025-10-24 23:15:25,885 - cnn_classifier - INFO - created directory at:artifacts\training]
+[2025-10-24 23:17:28,020 - cnn_classifier - INFO - yaml file:config\config.yaml loaded successfully]
+[2025-10-24 23:17:28,024 - cnn_classifier - INFO - yaml file:params.yaml loaded successfully]
+[2025-10-24 23:17:28,026 - cnn_classifier - INFO - created directory at:artifacts]
+[2025-10-24 23:17:28,028 - cnn_classifier - INFO - created directory at:artifacts\training]
+[2025-10-24 23:17:34,383 - cnn_classifier - INFO - yaml file:config\config.yaml loaded successfully]
+[2025-10-24 23:17:34,389 - cnn_classifier - INFO - yaml file:params.yaml loaded successfully]
+[2025-10-24 23:17:34,394 - cnn_classifier - INFO - created directory at:artifacts]
+[2025-10-24 23:17:34,396 - cnn_classifier - INFO - created directory at:artifacts\training]
+[2025-10-24 23:19:44,865 - cnn_classifier - INFO - yaml file:config\config.yaml loaded successfully]
+[2025-10-24 23:19:44,869 - cnn_classifier - INFO - yaml file:params.yaml loaded successfully]
+[2025-10-24 23:19:44,873 - cnn_classifier - INFO - created directory at:artifacts]
+[2025-10-25 10:09:29,747 - cnn_classifier - INFO - yaml file:config\config.yaml loaded successfully]
+[2025-10-25 10:09:29,778 - cnn_classifier - INFO - yaml file:params.yaml loaded successfully]
+[2025-10-25 10:09:29,782 - cnn_classifier - INFO - created directory at:artifacts]
+[2025-10-25 10:09:29,791 - cnn_classifier - INFO - created directory at:artifacts\training]
+[2025-10-25 10:15:11,470 - cnn_classifier - INFO - yaml file:config\config.yaml loaded successfully]
+[2025-10-25 10:15:11,474 - cnn_classifier - INFO - yaml file:params.yaml loaded successfully]
+[2025-10-25 10:15:11,476 - cnn_classifier - INFO - created directory at:artifacts]
+[2025-10-25 10:15:11,478 - cnn_classifier - INFO - created directory at:artifacts\training]
+[2025-10-25 10:22:43,806 - cnn_classifier - INFO - yaml file:config\config.yaml loaded successfully]
+[2025-10-25 10:22:43,826 - cnn_classifier - INFO - yaml file:params.yaml loaded successfully]
+[2025-10-25 10:22:43,831 - cnn_classifier - INFO - created directory at:artifacts]
+[2025-10-25 10:22:43,833 - cnn_classifier - INFO - created directory at:artifacts\training]
+[2025-10-25 10:22:45,017 - absl - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.]
+[2025-10-25 10:24:50,836 - cnn_classifier - INFO - yaml file:config\config.yaml loaded successfully]
+[2025-10-25 10:24:50,841 - cnn_classifier - INFO - yaml file:params.yaml loaded successfully]
+[2025-10-25 10:24:50,843 - cnn_classifier - INFO - created directory at:artifacts]
+[2025-10-25 10:24:50,845 - cnn_classifier - INFO - created directory at:artifacts\training]
+[2025-10-25 10:24:51,422 - absl - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.]
+[2025-10-25 10:26:31,493 - cnn_classifier - INFO - yaml file:config\config.yaml loaded successfully]
+[2025-10-25 10:26:31,499 - cnn_classifier - INFO - yaml file:params.yaml loaded successfully]
+[2025-10-25 10:26:31,500 - cnn_classifier - INFO - created directory at:artifacts]
+[2025-10-25 10:26:31,503 - cnn_classifier - INFO - created directory at:artifacts\training]
+[2025-10-25 10:28:03,971 - cnn_classifier - INFO - yaml file:config\config.yaml loaded successfully]
+[2025-10-25 10:28:03,976 - cnn_classifier - INFO - yaml file:params.yaml loaded successfully]
+[2025-10-25 10:28:03,978 - cnn_classifier - INFO - created directory at:artifacts]
+[2025-10-25 10:28:03,980 - cnn_classifier - INFO - created directory at:artifacts\training]
+[2025-10-25 10:28:04,422 - absl - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.]
+[2025-10-25 10:28:58,675 - cnn_classifier - INFO - yaml file:config\config.yaml loaded successfully]
+[2025-10-25 10:28:58,679 - cnn_classifier - INFO - yaml file:params.yaml loaded successfully]
+[2025-10-25 10:28:58,681 - cnn_classifier - INFO - created directory at:artifacts]
+[2025-10-25 10:28:58,684 - cnn_classifier - INFO - created directory at:artifacts\training]
+[2025-10-25 10:28:59,214 - absl - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.]
+[2025-10-25 10:32:31,068 - cnn_classifier - INFO - yaml file:config\config.yaml loaded successfully]
+[2025-10-25 10:32:31,071 - cnn_classifier - INFO - yaml file:params.yaml loaded successfully]
+[2025-10-25 10:32:31,074 - cnn_classifier - INFO - created directory at:artifacts]
+[2025-10-25 10:32:31,076 - cnn_classifier - INFO - created directory at:artifacts\training]
+[2025-10-25 10:32:31,442 - absl - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.]
+[2025-10-25 10:41:28,040 - cnn_classifier - INFO - yaml file:config\config.yaml loaded successfully]
+[2025-10-25 10:41:28,048 - cnn_classifier - INFO - yaml file:params.yaml loaded successfully]
+[2025-10-25 10:41:28,054 - cnn_classifier - INFO - created directory at:artifacts]
+[2025-10-25 10:41:28,056 - cnn_classifier - INFO - created directory at:artifacts\training]
+[2025-10-25 10:41:28,472 - absl - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.]
+[2025-10-25 14:12:45,399 - cnn_classifier - INFO - yaml file:config\config.yaml loaded successfully]
+[2025-10-25 14:12:45,419 - cnn_classifier - INFO - yaml file:params.yaml loaded successfully]
+[2025-10-25 14:12:45,422 - cnn_classifier - INFO - created directory at:artifacts]
+[2025-10-25 14:12:45,424 - cnn_classifier - INFO - created directory at:artifacts\training]
+[2025-10-25 14:12:46,434 - absl - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.]
+[2025-10-25 14:22:47,938 - cnn_classifier - INFO - yaml file:config\config.yaml loaded successfully]
+[2025-10-25 14:22:47,943 - cnn_classifier - INFO - yaml file:params.yaml loaded successfully]
+[2025-10-25 14:22:47,944 - cnn_classifier - INFO - created directory at:artifacts]
+[2025-10-25 14:22:47,946 - cnn_classifier - INFO - created directory at:artifacts\training]
+[2025-10-25 14:22:48,319 - absl - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.]
+[2025-10-25 14:29:55,384 - cnn_classifier - INFO - yaml file:config\config.yaml loaded successfully]
+[2025-10-25 14:29:55,388 - cnn_classifier - INFO - yaml file:params.yaml loaded successfully]
+[2025-10-25 14:29:55,390 - cnn_classifier - INFO - created directory at:artifacts]
+[2025-10-25 14:29:55,392 - cnn_classifier - INFO - created directory at:artifacts/prepare_base_model]
+[2025-10-25 14:29:56,654 - absl - WARNING - You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. ]
+[2025-10-25 14:29:57,029 - absl - WARNING - You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. ]
+[2025-10-25 14:31:02,475 - cnn_classifier - INFO - >>>>> stage Data Ingestion Stage started <<<<<]
+[2025-10-25 14:31:02,479 - cnn_classifier - INFO - yaml file:config\config.yaml loaded successfully]
+[2025-10-25 14:31:02,481 - cnn_classifier - INFO - yaml file:params.yaml loaded successfully]
+[2025-10-25 14:31:02,482 - cnn_classifier - INFO - created directory at:artifacts]
+[2025-10-25 14:31:02,483 - cnn_classifier - INFO - created directory at:artifacts/data_ingestion]
+[2025-10-25 14:31:02,483 - cnn_classifier - INFO - Downloading file from :https://drive.google.com/file/d/1SxC8AFRJO0TwDWjNs9yZR4WOO6oq0jmr/view?usp=sharing into file :artifacts\data_ingestion\data.zip]
+[2025-10-25 14:32:05,457 - cnn_classifier - INFO - yaml file:config\config.yaml loaded successfully]
+[2025-10-25 14:32:05,463 - cnn_classifier - INFO - yaml file:params.yaml loaded successfully]
+[2025-10-25 14:32:05,465 - cnn_classifier - INFO - created directory at:artifacts]
+[2025-10-25 14:32:05,468 - cnn_classifier - INFO - created directory at:artifacts\training]
+[2025-10-25 15:31:18,062 - cnn_classifier - ERROR - ('Connection broken: IncompleteRead(1623386814 bytes read, 4532494 more expected)', IncompleteRead(1623386814 bytes read, 4532494 more expected))]
+Traceback (most recent call last):
+  File "D:\Kidney-Disease-classification-cnn\.venv\Lib\site-packages\urllib3\response.py", line 779, in _error_catcher
+    yield
+  File "D:\Kidney-Disease-classification-cnn\.venv\Lib\site-packages\urllib3\response.py", line 925, in _raw_read
+    raise IncompleteRead(self._fp_bytes_read, self.length_remaining)
+urllib3.exceptions.IncompleteRead: IncompleteRead(1623386814 bytes read, 4532494 more expected)
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "D:\Kidney-Disease-classification-cnn\.venv\Lib\site-packages\requests\models.py", line 820, in generate
+    yield from self.raw.stream(chunk_size, decode_content=True)
+  File "D:\Kidney-Disease-classification-cnn\.venv\Lib\site-packages\urllib3\response.py", line 1091, in stream
+    data = self.read(amt=amt, decode_content=decode_content)
+  File "D:\Kidney-Disease-classification-cnn\.venv\Lib\site-packages\urllib3\response.py", line 1008, in read
+    data = self._raw_read(amt)
+  File "D:\Kidney-Disease-classification-cnn\.venv\Lib\site-packages\urllib3\response.py", line 903, in _raw_read
+    with self._error_catcher():
+         ~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\new user farhat\AppData\Local\Programs\Python\Python313\Lib\contextlib.py", line 162, in __exit__
+    self.gen.throw(value)
+    ~~~~~~~~~~~~~~^^^^^^^
+  File "D:\Kidney-Disease-classification-cnn\.venv\Lib\site-packages\urllib3\response.py", line 803, in _error_catcher
+    raise ProtocolError(arg, e) from e
+urllib3.exceptions.ProtocolError: ('Connection broken: IncompleteRead(1623386814 bytes read, 4532494 more expected)', IncompleteRead(1623386814 bytes read, 4532494 more expected))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "d:\Kidney-Disease-classification-cnn\main.py", line 14, in <module>
+    obj.main()
+    ~~~~~~~~^^
+  File "D:\Kidney-Disease-classification-cnn\src\cnn_classifier\pipeline\stage_01_data_ingestion.py", line 14, in main
+    data_integestion.download_file()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "D:\Kidney-Disease-classification-cnn\src\cnn_classifier\components\data_ingestion.py", line 28, in download_file
+    raise e
+  File "D:\Kidney-Disease-classification-cnn\src\cnn_classifier\components\data_ingestion.py", line 23, in download_file
+    gdown.download(prefix+file_id, str(zip_download_dir))
+    ~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Kidney-Disease-classification-cnn\.venv\Lib\site-packages\gdown\download.py", line 368, in download
+    for chunk in res.iter_content(chunk_size=CHUNK_SIZE):
+                 ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Kidney-Disease-classification-cnn\.venv\Lib\site-packages\requests\models.py", line 822, in generate
+    raise ChunkedEncodingError(e)
+requests.exceptions.ChunkedEncodingError: ('Connection broken: IncompleteRead(1623386814 bytes read, 4532494 more expected)', IncompleteRead(1623386814 bytes read, 4532494 more expected))
+[2025-10-25 19:11:23,119 - cnn_classifier - INFO - >>>>> stage Data Ingestion Stage started <<<<<]
+[2025-10-25 19:11:23,122 - cnn_classifier - INFO - yaml file:config\config.yaml loaded successfully]
+[2025-10-25 19:11:23,124 - cnn_classifier - INFO - yaml file:params.yaml loaded successfully]
+[2025-10-25 19:11:23,125 - cnn_classifier - INFO - created directory at:artifacts]
+[2025-10-25 19:11:23,125 - cnn_classifier - INFO - created directory at:artifacts/data_ingestion]
+[2025-10-25 19:11:23,126 - cnn_classifier - INFO - Downloading file from :https://drive.google.com/file/d/1SxC8AFRJO0TwDWjNs9yZR4WOO6oq0jmr/view?usp=sharing into file :artifacts\data_ingestion\data.zip]
+[2025-10-25 20:11:44,748 - cnn_classifier - ERROR - ('Connection broken: IncompleteRead(1476061902 bytes read, 151857406 more expected)', IncompleteRead(1476061902 bytes read, 151857406 more expected))]
+Traceback (most recent call last):
+  File "D:\Kidney-Disease-classification-cnn\.venv\Lib\site-packages\urllib3\response.py", line 779, in _error_catcher
+    yield
+  File "D:\Kidney-Disease-classification-cnn\.venv\Lib\site-packages\urllib3\response.py", line 925, in _raw_read
+    raise IncompleteRead(self._fp_bytes_read, self.length_remaining)
+urllib3.exceptions.IncompleteRead: IncompleteRead(1476061902 bytes read, 151857406 more expected)
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "D:\Kidney-Disease-classification-cnn\.venv\Lib\site-packages\requests\models.py", line 820, in generate
+    yield from self.raw.stream(chunk_size, decode_content=True)
+  File "D:\Kidney-Disease-classification-cnn\.venv\Lib\site-packages\urllib3\response.py", line 1091, in stream
+    data = self.read(amt=amt, decode_content=decode_content)
+  File "D:\Kidney-Disease-classification-cnn\.venv\Lib\site-packages\urllib3\response.py", line 1008, in read
+    data = self._raw_read(amt)
+  File "D:\Kidney-Disease-classification-cnn\.venv\Lib\site-packages\urllib3\response.py", line 903, in _raw_read
+    with self._error_catcher():
+         ~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\new user farhat\AppData\Local\Programs\Python\Python313\Lib\contextlib.py", line 162, in __exit__
+    self.gen.throw(value)
+    ~~~~~~~~~~~~~~^^^^^^^
+  File "D:\Kidney-Disease-classification-cnn\.venv\Lib\site-packages\urllib3\response.py", line 803, in _error_catcher
+    raise ProtocolError(arg, e) from e
+urllib3.exceptions.ProtocolError: ('Connection broken: IncompleteRead(1476061902 bytes read, 151857406 more expected)', IncompleteRead(1476061902 bytes read, 151857406 more expected))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "d:\Kidney-Disease-classification-cnn\main.py", line 14, in <module>
+    obj.main()
+    ~~~~~~~~^^
+  File "D:\Kidney-Disease-classification-cnn\src\cnn_classifier\pipeline\stage_01_data_ingestion.py", line 14, in main
+    data_integestion.download_file()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "D:\Kidney-Disease-classification-cnn\src\cnn_classifier\components\data_ingestion.py", line 28, in download_file
+    raise e
+  File "D:\Kidney-Disease-classification-cnn\src\cnn_classifier\components\data_ingestion.py", line 23, in download_file
+    gdown.download(prefix+file_id, str(zip_download_dir))
+    ~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Kidney-Disease-classification-cnn\.venv\Lib\site-packages\gdown\download.py", line 368, in download
+    for chunk in res.iter_content(chunk_size=CHUNK_SIZE):
+                 ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Kidney-Disease-classification-cnn\.venv\Lib\site-packages\requests\models.py", line 822, in generate
+    raise ChunkedEncodingError(e)
+requests.exceptions.ChunkedEncodingError: ('Connection broken: IncompleteRead(1476061902 bytes read, 151857406 more expected)', IncompleteRead(1476061902 bytes read, 151857406 more expected))
+[2025-10-25 20:26:58,222 - cnn_classifier - INFO - yaml file:config\config.yaml loaded successfully]
+[2025-10-25 20:26:58,250 - cnn_classifier - INFO - yaml file:params.yaml loaded successfully]
+[2025-10-25 20:26:58,256 - cnn_classifier - INFO - created directory at:artifacts]
+[2025-10-25 20:26:58,268 - cnn_classifier - INFO - created directory at:artifacts\training]
+[2025-10-25 20:27:02,173 - absl - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.]
+[2025-10-25 20:37:50,541 - cnn_classifier - INFO - yaml file:config\config.yaml loaded successfully]
+[2025-10-25 20:37:50,546 - cnn_classifier - INFO - yaml file:params.yaml loaded successfully]
+[2025-10-25 20:37:50,549 - cnn_classifier - INFO - created directory at:artifacts]
+[2025-10-25 20:37:50,551 - cnn_classifier - INFO - created directory at:artifacts\training]
+[2025-10-25 20:37:51,137 - absl - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.]
+[2025-10-25 20:56:51,789 - cnn_classifier - INFO - yaml file:config\config.yaml loaded successfully]
+[2025-10-25 20:56:51,795 - cnn_classifier - INFO - yaml file:params.yaml loaded successfully]
+[2025-10-25 20:56:51,797 - cnn_classifier - INFO - created directory at:artifacts]
+[2025-10-25 20:56:51,798 - cnn_classifier - INFO - created directory at:artifacts\training]
+[2025-10-25 20:56:52,549 - absl - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.]
+[2025-10-26 09:07:31,681 - cnn_classifier - INFO - yaml file:config\config.yaml loaded successfully]
+[2025-10-26 09:07:31,687 - cnn_classifier - INFO - yaml file:params.yaml loaded successfully]
+[2025-10-26 09:07:31,690 - cnn_classifier - INFO - created directory at:artifacts]
+[2025-10-26 09:07:31,693 - cnn_classifier - INFO - created directory at:artifacts\training]
+[2025-10-26 09:07:33,182 - absl - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.]
+[2025-10-26 09:09:43,587 - cnn_classifier - INFO - yaml file:config\config.yaml loaded successfully]
+[2025-10-26 09:09:43,612 - cnn_classifier - INFO - yaml file:params.yaml loaded successfully]
+[2025-10-26 09:09:43,614 - cnn_classifier - INFO - created directory at:artifacts]
+[2025-10-26 09:09:43,616 - cnn_classifier - INFO - created directory at:artifacts\training]
+[2025-10-26 09:26:20,576 - cnn_classifier - INFO - yaml file:config\config.yaml loaded successfully]
+[2025-10-26 09:26:20,595 - cnn_classifier - INFO - yaml file:params.yaml loaded successfully]
+[2025-10-26 09:26:20,606 - cnn_classifier - INFO - created directory at:artifacts]
+[2025-10-26 09:26:20,613 - cnn_classifier - INFO - created directory at:artifacts\training]
+[2025-10-26 09:26:21,159 - absl - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.]
+[2025-10-26 09:32:45,915 - cnn_classifier - INFO - yaml file:config\config.yaml loaded successfully]
+[2025-10-26 09:32:45,920 - cnn_classifier - INFO - yaml file:params.yaml loaded successfully]
+[2025-10-26 09:32:45,922 - cnn_classifier - INFO - created directory at:artifacts]
+[2025-10-26 09:32:45,927 - cnn_classifier - INFO - created directory at:artifacts\training]
+[2025-10-26 09:32:46,736 - absl - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.]
+[2025-10-26 09:38:27,799 - cnn_classifier - INFO - yaml file:config\config.yaml loaded successfully]
+[2025-10-26 09:38:27,803 - cnn_classifier - INFO - yaml file:params.yaml loaded successfully]
+[2025-10-26 09:38:27,805 - cnn_classifier - INFO - created directory at:artifacts]
+[2025-10-26 09:38:27,807 - cnn_classifier - INFO - created directory at:artifacts\training]
