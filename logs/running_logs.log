@@ -318,3 +318,494 @@ requests.exceptions.ChunkedEncodingError: ('Connection broken: IncompleteRead(14
 [2025-10-26 09:38:27,803 - cnn_classifier - INFO - yaml file:params.yaml loaded successfully]
 [2025-10-26 09:38:27,805 - cnn_classifier - INFO - created directory at:artifacts]
 [2025-10-26 09:38:27,807 - cnn_classifier - INFO - created directory at:artifacts\training]
+[2025-10-26 09:43:21,001 - cnn_classifier - INFO - yaml file:config\config.yaml loaded successfully]
+[2025-10-26 09:43:21,018 - cnn_classifier - INFO - yaml file:params.yaml loaded successfully]
+[2025-10-26 09:43:21,021 - cnn_classifier - INFO - created directory at:artifacts]
+[2025-10-26 09:43:21,025 - cnn_classifier - INFO - created directory at:artifacts\training]
+[2025-10-26 09:49:38,845 - cnn_classifier - INFO - yaml file:config\config.yaml loaded successfully]
+[2025-10-26 09:49:38,864 - cnn_classifier - INFO - yaml file:params.yaml loaded successfully]
+[2025-10-26 09:49:38,877 - cnn_classifier - INFO - created directory at:artifacts]
+[2025-10-26 09:49:38,881 - cnn_classifier - INFO - created directory at:artifacts\training]
+[2025-10-26 10:09:18,229 - cnn_classifier - INFO - yaml file:config\config.yaml loaded successfully]
+[2025-10-26 10:09:18,241 - cnn_classifier - INFO - yaml file:params.yaml loaded successfully]
+[2025-10-26 10:09:18,248 - cnn_classifier - INFO - created directory at:artifacts]
+[2025-10-26 10:09:18,252 - cnn_classifier - INFO - created directory at:artifacts\training]
+[2025-10-26 10:12:10,481 - cnn_classifier - INFO - yaml file:config\config.yaml loaded successfully]
+[2025-10-26 10:12:10,493 - cnn_classifier - INFO - yaml file:params.yaml loaded successfully]
+[2025-10-26 10:12:10,500 - cnn_classifier - INFO - created directory at:artifacts]
+[2025-10-26 10:12:10,503 - cnn_classifier - INFO - created directory at:artifacts\training]
+[2025-10-26 11:21:07,696 - absl - WARNING - You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. ]
+[2025-10-26 12:19:25,887 - absl - WARNING - You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. ]
+[2025-10-26 13:20:05,589 - absl - WARNING - You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. ]
+[2025-10-26 14:16:41,970 - absl - WARNING - You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. ]
+[2025-10-26 17:13:38,063 - absl - WARNING - You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. ]
+[2025-10-26 19:13:23,446 - cnn_classifier - INFO - >>>>> stage Data Ingestion Stage started <<<<<]
+[2025-10-26 19:13:23,454 - cnn_classifier - INFO - yaml file:config\config.yaml loaded successfully]
+[2025-10-26 19:13:23,461 - cnn_classifier - INFO - yaml file:params.yaml loaded successfully]
+[2025-10-26 19:13:23,467 - cnn_classifier - INFO - created directory at:artifacts]
+[2025-10-26 19:13:23,468 - cnn_classifier - INFO - created directory at:artifacts/data_ingestion]
+[2025-10-26 19:13:23,470 - cnn_classifier - INFO - Downloading file from :https://drive.google.com/file/d/1SxC8AFRJO0TwDWjNs9yZR4WOO6oq0jmr/view?usp=sharing into file :artifacts\data_ingestion\data.zip]
+[2025-10-26 20:07:26,277 - cnn_classifier - INFO - Downloaded data from: https://drive.google.com/file/d/1SxC8AFRJO0TwDWjNs9yZR4WOO6oq0jmr/view?usp=sharing into file :artifacts\data_ingestion\data.zip of size :~ 1589765 KB]
+[2025-10-26 20:08:09,402 - cnn_classifier - INFO - >>>>> stage Data Ingestion Stage completed <<<<<
+
+x==========x]
+[2025-10-26 20:08:09,403 - cnn_classifier - INFO - >>>>> stage Base Model Preparation Stage started <<<<<]
+[2025-10-26 20:08:09,421 - cnn_classifier - INFO - yaml file:config\config.yaml loaded successfully]
+[2025-10-26 20:08:09,428 - cnn_classifier - INFO - yaml file:params.yaml loaded successfully]
+[2025-10-26 20:08:09,430 - cnn_classifier - INFO - created directory at:artifacts]
+[2025-10-26 20:08:09,431 - cnn_classifier - INFO - created directory at:artifacts/prepare_base_model]
+[2025-10-26 20:08:11,064 - absl - WARNING - You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. ]
+[2025-10-26 20:08:11,977 - absl - WARNING - You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. ]
+[2025-10-26 20:08:12,258 - cnn_classifier - INFO - >>>>> stage Base Model Preparation Stage completed <<<<<
+
+x==========x]
+[2025-10-26 20:08:12,260 - cnn_classifier - INFO - >>>>> stage Model Training Stage started <<<<<]
+[2025-10-26 20:08:12,265 - cnn_classifier - INFO - yaml file:config\config.yaml loaded successfully]
+[2025-10-26 20:08:12,271 - cnn_classifier - INFO - yaml file:params.yaml loaded successfully]
+[2025-10-26 20:08:12,273 - cnn_classifier - INFO - created directory at:artifacts]
+[2025-10-26 20:08:12,274 - cnn_classifier - INFO - created directory at:artifacts\training]
+[2025-10-26 20:08:23,258 - cnn_classifier - ERROR - Arguments `target` and `output` must have the same shape. Received: target.shape=(None, 1), output.shape=(None, 4)]
+Traceback (most recent call last):
+  File "d:\Kidney-Disease-classification-cnn\main.py", line 38, in <module>
+    obj.main()
+    ~~~~~~~~^^
+  File "D:\Kidney-Disease-classification-cnn\src\cnn_classifier\pipeline\stage_03_model_train.py", line 18, in main
+    training.train()
+    ~~~~~~~~~~~~~~^^
+  File "D:\Kidney-Disease-classification-cnn\src\cnn_classifier\components\model_training.py", line 109, in train
+    history = self.model.fit(
+        self.train_generator,
+    ...<5 lines>...
+        verbose=1
+    )
+  File "D:\Kidney-Disease-classification-cnn\.venv\Lib\site-packages\keras\src\utils\traceback_utils.py", line 122, in error_handler
+    raise e.with_traceback(filtered_tb) from None
+  File "D:\Kidney-Disease-classification-cnn\.venv\Lib\site-packages\keras\src\backend\tensorflow\nn.py", line 669, in categorical_crossentropy
+    raise ValueError(
+    ...<3 lines>...
+    )
+ValueError: Arguments `target` and `output` must have the same shape. Received: target.shape=(None, 1), output.shape=(None, 4)
+[2025-10-26 20:32:12,365 - cnn_classifier - INFO - >>>>> stage Data Ingestion Stage started <<<<<]
+[2025-10-26 20:32:12,369 - cnn_classifier - INFO - yaml file:config\config.yaml loaded successfully]
+[2025-10-26 20:32:12,371 - cnn_classifier - INFO - yaml file:params.yaml loaded successfully]
+[2025-10-26 20:32:12,372 - cnn_classifier - INFO - created directory at:artifacts]
+[2025-10-26 20:32:12,372 - cnn_classifier - INFO - created directory at:artifacts/data_ingestion]
+[2025-10-26 20:32:12,373 - cnn_classifier - INFO - Downloading file from :https://drive.google.com/file/d/1SxC8AFRJO0TwDWjNs9yZR4WOO6oq0jmr/view?usp=sharing into file :artifacts\data_ingestion\data.zip]
+[2025-10-26 20:33:49,415 - cnn_classifier - INFO - >>>>> stage Data Ingestion Stage started <<<<<]
+[2025-10-26 20:33:49,419 - cnn_classifier - INFO - yaml file:config\config.yaml loaded successfully]
+[2025-10-26 20:33:49,422 - cnn_classifier - INFO - yaml file:params.yaml loaded successfully]
+[2025-10-26 20:33:49,423 - cnn_classifier - INFO - created directory at:artifacts]
+[2025-10-26 20:33:49,423 - cnn_classifier - INFO - created directory at:artifacts/data_ingestion]
+[2025-10-26 20:33:49,424 - cnn_classifier - INFO - Downloading file from :https://drive.google.com/file/d/1SxC8AFRJO0TwDWjNs9yZR4WOO6oq0jmr/view?usp=sharing into file :artifacts\data_ingestion\data.zip]
+[2025-10-26 21:25:22,567 - cnn_classifier - INFO - Downloaded data from: https://drive.google.com/file/d/1SxC8AFRJO0TwDWjNs9yZR4WOO6oq0jmr/view?usp=sharing into file :artifacts\data_ingestion\data.zip of size :~ 1589765 KB]
+[2025-10-26 21:25:49,318 - cnn_classifier - INFO - >>>>> stage Data Ingestion Stage completed <<<<<
+
+x==========x]
+[2025-10-26 21:25:49,318 - cnn_classifier - INFO - >>>>> stage Base Model Preparation Stage started <<<<<]
+[2025-10-26 21:25:49,349 - cnn_classifier - INFO - yaml file:config\config.yaml loaded successfully]
+[2025-10-26 21:25:49,354 - cnn_classifier - INFO - yaml file:params.yaml loaded successfully]
+[2025-10-26 21:25:49,356 - cnn_classifier - INFO - created directory at:artifacts]
+[2025-10-26 21:25:49,359 - cnn_classifier - INFO - created directory at:artifacts/prepare_base_model]
+[2025-10-26 21:25:50,222 - absl - WARNING - You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. ]
+[2025-10-26 21:25:51,292 - absl - WARNING - You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. ]
+[2025-10-26 21:25:51,822 - cnn_classifier - INFO - >>>>> stage Base Model Preparation Stage completed <<<<<
+
+x==========x]
+[2025-10-26 21:25:51,845 - cnn_classifier - INFO - >>>>> stage Model Training Stage started <<<<<]
+[2025-10-26 21:25:54,260 - cnn_classifier - INFO - yaml file:config\config.yaml loaded successfully]
+[2025-10-26 21:25:54,269 - cnn_classifier - INFO - yaml file:params.yaml loaded successfully]
+[2025-10-26 21:25:54,276 - cnn_classifier - INFO - created directory at:artifacts]
+[2025-10-26 21:25:54,289 - cnn_classifier - INFO - created directory at:artifacts\training]
+[2025-10-26 21:26:02,241 - cnn_classifier - INFO - >>>>> stage Model Training Stage completed <<<<<
+
+x==========x]
+[2025-10-26 23:28:17,273 - cnn_classifier - INFO - >>>>> stage Data Ingestion Stage started <<<<<]
+[2025-10-26 23:28:17,284 - cnn_classifier - INFO - yaml file:config\config.yaml loaded successfully]
+[2025-10-26 23:28:17,290 - cnn_classifier - INFO - yaml file:params.yaml loaded successfully]
+[2025-10-26 23:28:17,292 - cnn_classifier - INFO - created directory at:artifacts]
+[2025-10-26 23:28:17,293 - cnn_classifier - INFO - created directory at:artifacts/data_ingestion/CT-KIDNEY-DATASET-Normal-Cyst-Tumor-Stone]
+[2025-10-26 23:28:17,296 - cnn_classifier - INFO - Downloading file from :https://drive.google.com/file/d/1SxC8AFRJO0TwDWjNs9yZR4WOO6oq0jmr/view?usp=sharing into file :artifacts\data_ingestion\data.zip]
+[2025-10-26 23:32:18,580 - cnn_classifier - INFO - >>>>> stage Data Ingestion Stage started <<<<<]
+[2025-10-26 23:32:18,592 - cnn_classifier - INFO - yaml file:config\config.yaml loaded successfully]
+[2025-10-26 23:32:18,599 - cnn_classifier - INFO - yaml file:params.yaml loaded successfully]
+[2025-10-26 23:32:18,602 - cnn_classifier - INFO - created directory at:artifacts]
+[2025-10-26 23:32:18,604 - cnn_classifier - INFO - created directory at:artifacts/data_ingestion/CT-KIDNEY-DATASET-Normal-Cyst-Tumor-Stone]
+[2025-10-26 23:32:18,609 - cnn_classifier - INFO - Downloading file from :https://drive.google.com/file/d/1SxC8AFRJO0TwDWjNs9yZR4WOO6oq0jmr/view?usp=sharing into file :artifacts\data_ingestion\data.zip]
+[2025-10-27 00:27:23,088 - cnn_classifier - INFO - Downloaded data from: https://drive.google.com/file/d/1SxC8AFRJO0TwDWjNs9yZR4WOO6oq0jmr/view?usp=sharing into file :artifacts\data_ingestion\data.zip of size :~ 1589765 KB]
+[2025-10-27 00:27:50,607 - cnn_classifier - INFO - >>>>> stage Data Ingestion Stage completed <<<<<
+
+x==========x]
+[2025-10-27 00:27:50,607 - cnn_classifier - INFO - >>>>> stage Base Model Preparation Stage started <<<<<]
+[2025-10-27 00:27:50,618 - cnn_classifier - INFO - yaml file:config\config.yaml loaded successfully]
+[2025-10-27 00:27:50,624 - cnn_classifier - INFO - yaml file:params.yaml loaded successfully]
+[2025-10-27 00:27:50,626 - cnn_classifier - INFO - created directory at:artifacts]
+[2025-10-27 00:27:50,627 - cnn_classifier - INFO - created directory at:artifacts/prepare_base_model]
+[2025-10-27 00:27:51,809 - absl - WARNING - You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. ]
+[2025-10-27 00:27:52,852 - absl - WARNING - You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. ]
+[2025-10-27 00:27:53,042 - cnn_classifier - INFO - >>>>> stage Base Model Preparation Stage completed <<<<<
+
+x==========x]
+[2025-10-27 00:27:53,042 - cnn_classifier - INFO - >>>>> stage Model Training Stage started <<<<<]
+[2025-10-27 00:27:54,161 - cnn_classifier - INFO - yaml file:config\config.yaml loaded successfully]
+[2025-10-27 00:27:54,163 - cnn_classifier - INFO - yaml file:params.yaml loaded successfully]
+[2025-10-27 00:27:54,164 - cnn_classifier - INFO - created directory at:artifacts]
+[2025-10-27 00:27:54,164 - cnn_classifier - INFO - created directory at:artifacts\training]
+[2025-10-27 00:27:58,109 - cnn_classifier - INFO - >>>>> stage Model Training Stage completed <<<<<
+
+x==========x]
+[2025-10-27 09:55:32,895 - cnn_classifier - INFO - >>>>> stage Data Ingestion Stage started <<<<<]
+[2025-10-27 09:55:32,900 - cnn_classifier - INFO - yaml file:config\config.yaml loaded successfully]
+[2025-10-27 09:55:32,919 - cnn_classifier - INFO - yaml file:params.yaml loaded successfully]
+[2025-10-27 09:55:32,923 - cnn_classifier - INFO - created directory at:artifacts]
+[2025-10-27 09:55:32,924 - cnn_classifier - INFO - created directory at:artifacts/data_ingestion]
+[2025-10-27 09:55:34,274 - cnn_classifier - INFO - artifacts\data_ingestion\data.zip download! with following info: 
+Content-Type: text/html; charset=utf-8
+X-Robots-Tag: noindex, nofollow, nosnippet
+Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+Pragma: no-cache
+Expires: Mon, 01 Jan 1990 00:00:00 GMT
+Date: Mon, 27 Oct 2025 04:25:33 GMT
+P3P: CP="This is not a P3P policy! See g.co/p3phelp for more info."
+Content-Security-Policy: require-trusted-types-for 'script';report-uri https://csp.withgoogle.com/csp/docs-tt
+Reporting-Endpoints: default="/file/d/1SxC8AFRJO0TwDWjNs9yZR4WOO6oq0jmr/web-reports?bl=apps-fileview.texmex_20251017.01_p0&app=15&clss=1&context=eJwVyXlc0_cdx_GY_L5vUQRCUAmgEBMEIkWhq4oYjhiOOO95BB5OqBdWRYsDUTxQRBR1FGeZrvUACSoSogLtWorHqiBK1VJcdcWjHXJYwOqsV6UP2ds_no_H-_N5DWxSFTlYZHZHi-wl6QdZZFalRbZRbZFV-VlkH-ktsr5RFln_QIssMMgiywm2yELzLTIzJS6Jl61-a1S3PINmtz6Vz6fJU36Vz6KzW5_L66g6-7m8lo6ufCk_SUcNr-QnqTD8lfwQDUx-JVfRg92v5N2U0fibPIv8Va_lY6i1-LW8i270vZHfIs3wPnkAOWT2yZXUZu2n6KGh9XKFNz34k0LRTRuzFYocOrJDoThOJe0KRTldHiApbpDscZjkQPefTZQ6aPcBg7SPUkPDpfWU5hshbaQeS5T0jNLNRmkTBU0xSmPpXI5Ruk76_UZpAvU-MkqKX4xS5KZJUhxtsk2StpPePkkKoVWpJmktNWSYpG-pJtMkXaWq0ybpK3KqNklDKPdzk5RPztpoaSh9Gxgj3SblihhJTbvWxEh_I_P5GGkmOTSwvdXJToVjY6VDlLgkVlpNtrQ4qZYaV5qlZspxmyztoYD-f5SCac_sIvEx7fygSBTQoS-KRClp5haLYPrkWbE4SjNUJSKJPL1KhJas40tENZVNLxFnSD3YKgJomYdVrKOvLllFI3nUWYWeXO9y09zHVrGAxieWijhyXF4q3Kg5pVS0UFZbqdhBKxYfExtoTuUx8WdSnDsuHMm64YSw0bntJ0Q9BfmUibH014QyUUiNeWWimc72lIlr1PJzuWilX7vKRS89fscmXlLCdJtYSJuX2EQuqbJswpMmn7SJWfRyV4Xoo5_zK8RvlBRoF8voarJd_EC5X9tFPhW-sYtSmu5_Sswj5cxTQkPNi06JFspYfUpk0S17l7hPi4u6RRo9udItXtGziB7xOx242COKqH_CI-FCNz99JO6Q6rwjzC2OmEazXzsinmwHB-EMXT80CM1U1DYIJ6jOxQnXKHOVE3ZR2JdOmER7up2wl2ZFOmMeabY5I4Am1jvDRO_9wQUGup7sgmb6_ogL7lH5MSWqKO-kEvlUUK5EIQ3pVWIkdc13xVOqrXLFJaoNVuES1U1U4Splat2QTc3vu6GFFIvc4EhLWwZjLbXeHYwuasocgv-Qy84hcKdvjg7FTVp3dyi20NTF7phDq1PckUGeMjW0VKlRo4Z8tGqMIddkNTzoil2NJmq7qkYP7QrzwEd0pdgDTTTV6oE5VL3bE7U07oknIqjypSdq6J0VXniP1uzwQgbV53vhOsXv9cL7dHrLMHxG1duG4Uu6XDMMN8juPRzn6EXlcPRSUftwlNIMX2_MoY0Z3sihaRXeMDz2RjQ16HxwmzZM9cE2ykn2QR75fe6D0dQLDRT9NYgM1SCOBqzQQF6jwUB6eEODR_SjdQQ6KbRsBMzkMEYLJV0M06KZ1n6oRS4V0xn6IV2L_9LHxVocpFlvtEig-yE6dJAyUgc1lc_V4TTVLdfhGi08rkMypdfosIlu_luHOxTWq0MkjUn0RcenvviFPvzeF-lvJY5EJqn2j4QnnZ_nh8tkivfDFFqn8IdTrj8mVPgjgupFAK7TMNcAjKCRugCMou-OBOAWneoIwD9ppaRHGgW46BFEwUo9Qmmrqx55VOmmRw3ZButRTZ2RYeihvfFh-Dt5VUyEjmoqJ-I81SsNaCQ_tQGB1OFrQDc5mw1wI5cZBrjTT1ls1NpgQCe9uGdAL-2UhaOA_rE_HMX08GA4HlHn5gj00JV9EWiiVt9IdFG_kEiApvlFYQFFBUXBTAsOR2ERnabPqJ4aacvJKGyntLoobKQBI41wpRCTERMoIc-IhTTusBERVN5oRBUldPFPM2JMmEObY03IpXspJrTT4VUmlFDmehOyKT3bhE30ZL8Jz6m7hpsu3DGhjs7Oj0YdFfwlGoXU9100-jdHA4-j4UwfBMVgFb2wxeANFZyJwQG6qIpFI83NisU3W2Nxk7b-KxZ5tOh_sVhGeb_HwpAaByOFpschipwr4jCUGu1xaKauu3F4SltGm7GTZo0zYx7ZqYpm_GSGhUIftiKckm8_QAZ1zWzDU0pJakM6Tf-6DYnUENmOa7TE1o6cC-3IowIqpINUTCk_tmMN-Wd3YAylXuzAenrj3gmoO7GvpxNVn3ThC1INcjj3sLcByr21bRf6eUrzli9dp9UtTE1NC0penrI0g-fo9KXrVy1dn_Ru8LtjQ4JDxo8ODklKDf4_pwVG4g&build-label=apps-fileview.texmex_20251017.01_p0&imp-sid=CM75tNLEw5ADFXfn3gIdaTM8sg&is-cached-offline=false"
+Document-Policy: include-js-call-stacks-in-crash-reports
+Referrer-Policy: origin
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+X-XSS-Protection: 1; mode=block
+Server: GSE
+Set-Cookie: NID=526=KsnYexTXZINtkGr-n38M6I-LN2vOI7bxYYgtq05nHMuEo011zLMOBXDlGEFJGXdUoyjWHrSoFb4VfzStgFAN-Aj8xzI3j-b8H-D4pTCwWFWRKN0uj8Fp7GUuFBoKqoIZ9unsWn4T1ZeZkrXW5JgMfXN_fS7Q8UpXegadWLYCAOmmCcMn4ykNB631nes7h4-cAA; expires=Tue, 28-Apr-2026 04:25:33 GMT; path=/; domain=.google.com; HttpOnly
+Alt-Svc: h3=":443"; ma=2592000,h3-29=":443"; ma=2592000
+Accept-Ranges: none
+Vary: Sec-Fetch-Dest, Sec-Fetch-Mode, Sec-Fetch-Site,Accept-Encoding
+Connection: close
+Transfer-Encoding: chunked
+
+]
+[2025-10-27 09:55:34,965 - cnn_classifier - ERROR - File is not a zip file]
+Traceback (most recent call last):
+  File "d:\Kidney-Disease-classification-cnn\main.py", line 15, in <module>
+    obj.main()
+    ~~~~~~~~^^
+  File "D:\Kidney-Disease-classification-cnn\src\cnn_classifier\pipeline\stage_01_data_ingestion.py", line 15, in main
+    data_integestion.extract_zip_file()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "D:\Kidney-Disease-classification-cnn\src\cnn_classifier\components\data_ingestion.py", line 70, in extract_zip_file
+    with zipfile.ZipFile(self.config.local_data_file, 'r') as zip_ref:
+         ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\new user farhat\AppData\Local\Programs\Python\Python313\Lib\zipfile\__init__.py", line 1385, in __init__
+    self._RealGetContents()
+    ~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\new user farhat\AppData\Local\Programs\Python\Python313\Lib\zipfile\__init__.py", line 1452, in _RealGetContents
+    raise BadZipFile("File is not a zip file")
+zipfile.BadZipFile: File is not a zip file
+[2025-10-27 10:04:37,919 - cnn_classifier - INFO - >>>>> stage Data Ingestion Stage started <<<<<]
+[2025-10-27 10:04:37,923 - cnn_classifier - INFO - yaml file:config\config.yaml loaded successfully]
+[2025-10-27 10:04:37,925 - cnn_classifier - INFO - yaml file:params.yaml loaded successfully]
+[2025-10-27 10:04:37,926 - cnn_classifier - INFO - created directory at:artifacts]
+[2025-10-27 10:04:37,926 - cnn_classifier - INFO - created directory at:artifacts/data_ingestion]
+[2025-10-27 10:04:37,927 - cnn_classifier - INFO - Downloading file from: https://drive.google.com/file/d/1SxC8AFRJO0TwDWjNs9yZR4WOO6oq0jmr/view?usp=sharing into file: artifacts\data_ingestion\data.zip]
+[2025-10-27 10:04:37,927 - cnn_classifier - INFO - Download URL: https://drive.google.com/uc?export=download&id=1SxC8AFRJO0TwDWjNs9yZR4WOO6oq0jmr]
+[2025-10-27 10:58:10,166 - cnn_classifier - INFO - Downloaded data from: https://drive.google.com/file/d/1SxC8AFRJO0TwDWjNs9yZR4WOO6oq0jmr/view?usp=sharing into file: artifacts\data_ingestion\data.zip of size: ~ 1589765 KB]
+[2025-10-27 10:58:38,281 - cnn_classifier - INFO - Zip file extracted successfully]
+[2025-10-27 10:58:38,282 - cnn_classifier - INFO - Checking for nested folder structure...]
+[2025-10-27 10:58:38,283 - cnn_classifier - INFO - Directory structure is already correct]
+[2025-10-27 10:58:38,288 - cnn_classifier - INFO - >>>>> stage Data Ingestion Stage completed <<<<<
+
+x==========x]
+[2025-10-27 10:58:38,289 - cnn_classifier - INFO - >>>>> stage Base Model Preparation Stage started <<<<<]
+[2025-10-27 10:58:38,294 - cnn_classifier - INFO - yaml file:config\config.yaml loaded successfully]
+[2025-10-27 10:58:38,298 - cnn_classifier - INFO - yaml file:params.yaml loaded successfully]
+[2025-10-27 10:58:38,299 - cnn_classifier - INFO - created directory at:artifacts]
+[2025-10-27 10:58:38,303 - cnn_classifier - INFO - created directory at:artifacts/prepare_base_model]
+[2025-10-27 10:58:39,162 - absl - WARNING - You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. ]
+[2025-10-27 10:58:39,521 - absl - WARNING - You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. ]
+[2025-10-27 10:58:39,714 - cnn_classifier - INFO - >>>>> stage Base Model Preparation Stage completed <<<<<
+
+x==========x]
+[2025-10-27 10:58:39,715 - cnn_classifier - INFO - >>>>> stage Model Training Stage started <<<<<]
+[2025-10-27 10:58:41,261 - cnn_classifier - INFO - yaml file:config\config.yaml loaded successfully]
+[2025-10-27 10:58:41,263 - cnn_classifier - INFO - yaml file:params.yaml loaded successfully]
+[2025-10-27 10:58:41,264 - cnn_classifier - INFO - created directory at:artifacts]
+[2025-10-27 10:58:41,265 - cnn_classifier - INFO - created directory at:artifacts\training]
+[2025-10-27 10:58:48,151 - cnn_classifier - INFO - >>>>> stage Model Training Stage completed <<<<<
+
+x==========x]
+[2025-10-27 11:29:00,522 - cnn_classifier - INFO - >>>>> stage Data Ingestion Stage started <<<<<]
+[2025-10-27 11:29:00,537 - cnn_classifier - INFO - yaml file:config\config.yaml loaded successfully]
+[2025-10-27 11:29:00,558 - cnn_classifier - INFO - yaml file:params.yaml loaded successfully]
+[2025-10-27 11:29:00,561 - cnn_classifier - INFO - created directory at:artifacts]
+[2025-10-27 11:29:00,562 - cnn_classifier - INFO - created directory at:artifacts/data_ingestion]
+[2025-10-27 11:29:00,563 - cnn_classifier - INFO - Downloading file from :https://drive.google.com/file/d/1SxC8AFRJO0TwDWjNs9yZR4WOO6oq0jmr/view?usp=sharing into file :artifacts\data_ingestion\data.zip]
+[2025-10-27 12:20:43,985 - cnn_classifier - INFO - Downloaded data from: https://drive.google.com/file/d/1SxC8AFRJO0TwDWjNs9yZR4WOO6oq0jmr/view?usp=sharing into file :artifacts\data_ingestion\data.zip of size :~ 1589765 KB]
+[2025-10-27 12:21:14,406 - cnn_classifier - INFO - >>>>> stage Data Ingestion Stage completed <<<<<
+
+x==========x]
+[2025-10-27 12:21:14,407 - cnn_classifier - INFO - >>>>> stage Base Model Preparation Stage started <<<<<]
+[2025-10-27 12:21:14,416 - cnn_classifier - INFO - yaml file:config\config.yaml loaded successfully]
+[2025-10-27 12:21:14,421 - cnn_classifier - INFO - yaml file:params.yaml loaded successfully]
+[2025-10-27 12:21:14,423 - cnn_classifier - INFO - created directory at:artifacts]
+[2025-10-27 12:21:14,424 - cnn_classifier - INFO - created directory at:artifacts/prepare_base_model]
+[2025-10-27 12:21:15,613 - absl - WARNING - You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. ]
+[2025-10-27 12:21:18,018 - absl - WARNING - You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. ]
+[2025-10-27 12:21:18,188 - cnn_classifier - INFO - >>>>> stage Base Model Preparation Stage completed <<<<<
+
+x==========x]
+[2025-10-27 12:21:18,189 - cnn_classifier - INFO - >>>>> stage Model Training Stage started <<<<<]
+[2025-10-27 12:21:19,760 - cnn_classifier - INFO - yaml file:config\config.yaml loaded successfully]
+[2025-10-27 12:21:19,762 - cnn_classifier - INFO - yaml file:params.yaml loaded successfully]
+[2025-10-27 12:21:19,763 - cnn_classifier - INFO - created directory at:artifacts]
+[2025-10-27 12:21:19,764 - cnn_classifier - INFO - created directory at:artifacts\training]
+[2025-10-27 12:21:26,908 - cnn_classifier - INFO - >>>>> stage Model Training Stage completed <<<<<
+
+x==========x]
+[2025-10-30 10:33:53,512 - cnn_classifier - INFO - >>>>> stage Data Ingestion Stage started <<<<<]
+[2025-10-30 10:33:53,538 - cnn_classifier - INFO - yaml file:config\config.yaml loaded successfully]
+[2025-10-30 10:33:53,569 - cnn_classifier - INFO - yaml file:params.yaml loaded successfully]
+[2025-10-30 10:33:53,572 - cnn_classifier - INFO - created directory at:artifacts]
+[2025-10-30 10:33:53,574 - cnn_classifier - INFO - created directory at:artifacts/data_ingestion]
+[2025-10-30 10:33:53,580 - cnn_classifier - INFO - Downloading file from :https://drive.google.com/file/d/1SxC8AFRJO0TwDWjNs9yZR4WOO6oq0jmr/view?usp=sharing into file :artifacts\data_ingestion\data.zip]
+[2025-10-30 22:46:26,443 - cnn_classifier - INFO - yaml file:config\config.yaml loaded successfully]
+[2025-10-30 22:46:26,463 - cnn_classifier - INFO - yaml file:params.yaml loaded successfully]
+[2025-10-30 22:46:26,467 - cnn_classifier - INFO - created directory at:artifacts]
+[2025-10-30 22:46:26,470 - cnn_classifier - INFO - created directory at:artifacts/data_ingestion]
+[2025-10-30 22:46:26,472 - cnn_classifier - INFO - Downloading file from :https://drive.google.com/file/d/15AWxlgsbETlz277Hqc_9bt39EqIuwfNj/view?usp=sharing into file :artifacts\data_ingestion\data.zip]
+[2025-10-31 00:00:50,089 - cnn_classifier - INFO - yaml file:config\config.yaml loaded successfully]
+[2025-10-31 00:00:50,093 - cnn_classifier - INFO - yaml file:params.yaml loaded successfully]
+[2025-10-31 00:00:50,095 - cnn_classifier - INFO - created directory at:artifacts]
+[2025-10-31 00:00:50,096 - cnn_classifier - INFO - created directory at:artifacts/data_ingestion]
+[2025-10-31 00:00:50,099 - cnn_classifier - INFO - Downloading file from :https://drive.google.com/file/d/15AWxlgsbETlz277Hqc_9bt39EqIuwfNj/view?usp=sharing into file :artifacts\data_ingestion\data.zip]
+[2025-10-31 05:28:00,354 - cnn_classifier - INFO - yaml file:config\config.yaml loaded successfully]
+[2025-10-31 05:28:00,379 - cnn_classifier - INFO - yaml file:params.yaml loaded successfully]
+[2025-10-31 05:28:00,381 - cnn_classifier - INFO - created directory at:artifacts]
+[2025-10-31 05:28:00,383 - cnn_classifier - INFO - created directory at:artifacts/data_ingestion]
+[2025-10-31 05:28:00,385 - cnn_classifier - INFO - Downloading file from :https://drive.google.com/file/d/15AWxlgsbETlz277Hqc_9bt39EqIuwfNj/view?usp=sharing into file :artifacts\data_ingestion\data.zip]
+[2025-10-31 05:58:29,399 - cnn_classifier - INFO - Downloaded data from: https://drive.google.com/file/d/15AWxlgsbETlz277Hqc_9bt39EqIuwfNj/view?usp=sharing into file :artifacts\data_ingestion\data.zip of size :~ 917945 KB]
+[2025-10-31 10:52:47,979 - cnn_classifier - INFO - >>>>> stage Data Ingestion Stage started <<<<<]
+[2025-10-31 10:52:47,982 - cnn_classifier - INFO - yaml file:config\config.yaml loaded successfully]
+[2025-10-31 10:52:48,000 - cnn_classifier - INFO - yaml file:params.yaml loaded successfully]
+[2025-10-31 10:52:48,002 - cnn_classifier - INFO - created directory at:artifacts]
+[2025-10-31 10:52:48,004 - cnn_classifier - INFO - created directory at:artifacts/data_ingestion]
+[2025-10-31 10:52:48,005 - cnn_classifier - INFO - Downloading file from :https://drive.google.com/file/d/15AWxlgsbETlz277Hqc_9bt39EqIuwfNj/view?usp=sharing into file :artifacts\data_ingestion\data.zip]
+[2025-10-31 11:28:45,679 - cnn_classifier - INFO - Downloaded data from: https://drive.google.com/file/d/15AWxlgsbETlz277Hqc_9bt39EqIuwfNj/view?usp=sharing into file :artifacts\data_ingestion\data.zip of size :~ 917945 KB]
+[2025-10-31 11:29:03,804 - cnn_classifier - INFO - >>>>> stage Data Ingestion Stage completed <<<<<
+
+x==========x]
+[2025-10-31 11:29:03,804 - cnn_classifier - INFO - >>>>> stage Base Model Preparation Stage started <<<<<]
+[2025-10-31 11:29:03,832 - cnn_classifier - INFO - yaml file:config\config.yaml loaded successfully]
+[2025-10-31 11:29:03,847 - cnn_classifier - INFO - yaml file:params.yaml loaded successfully]
+[2025-10-31 11:29:03,857 - cnn_classifier - INFO - created directory at:artifacts]
+[2025-10-31 11:29:03,858 - cnn_classifier - INFO - created directory at:artifacts/prepare_base_model]
+[2025-10-31 11:29:06,292 - absl - WARNING - You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. ]
+[2025-10-31 11:29:06,782 - absl - WARNING - You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. ]
+[2025-10-31 11:29:07,196 - cnn_classifier - INFO - >>>>> stage Base Model Preparation Stage completed <<<<<
+
+x==========x]
+[2025-10-31 11:29:07,197 - cnn_classifier - INFO - >>>>> stage Model Training Stage started <<<<<]
+[2025-10-31 11:29:09,502 - cnn_classifier - INFO - yaml file:config\config.yaml loaded successfully]
+[2025-10-31 11:29:09,504 - cnn_classifier - INFO - yaml file:params.yaml loaded successfully]
+[2025-10-31 11:29:09,506 - cnn_classifier - INFO - created directory at:artifacts]
+[2025-10-31 11:29:09,507 - cnn_classifier - INFO - created directory at:artifacts\training]
+[2025-10-31 11:29:09,985 - cnn_classifier - INFO - >>>>> stage Model Training Stage completed <<<<<
+
+x==========x]
+[2025-10-31 11:31:55,910 - cnn_classifier - INFO - >>>>> stage Data Ingestion Stage started <<<<<]
+[2025-10-31 11:31:55,916 - cnn_classifier - INFO - yaml file:config\config.yaml loaded successfully]
+[2025-10-31 11:31:55,930 - cnn_classifier - INFO - yaml file:params.yaml loaded successfully]
+[2025-10-31 11:31:55,935 - cnn_classifier - INFO - created directory at:artifacts]
+[2025-10-31 11:31:55,943 - cnn_classifier - INFO - created directory at:artifacts/data_ingestion]
+[2025-10-31 11:31:55,945 - cnn_classifier - INFO - Downloading file from :https://drive.google.com/file/d/15AWxlgsbETlz277Hqc_9bt39EqIuwfNj/view?usp=sharing into file :artifacts\data_ingestion\data.zip]
+[2025-10-31 19:14:35,309 - cnn_classifier - ERROR - ("Connection broken: ConnectionAbortedError(10053, 'An established connection was aborted by the software in your host machine', None, 10053, None)", ConnectionAbortedError(10053, 'An established connection was aborted by the software in your host machine', None, 10053, None))]
+Traceback (most recent call last):
+  File "D:\Kidney-Disease-classification-cnn\.venv\Lib\site-packages\urllib3\response.py", line 779, in _error_catcher
+    yield
+  File "D:\Kidney-Disease-classification-cnn\.venv\Lib\site-packages\urllib3\response.py", line 904, in _raw_read
+    data = self._fp_read(amt, read1=read1) if not fp_closed else b""
+           ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^
+  File "D:\Kidney-Disease-classification-cnn\.venv\Lib\site-packages\urllib3\response.py", line 887, in _fp_read
+    return self._fp.read(amt) if amt is not None else self._fp.read()
+           ~~~~~~~~~~~~~^^^^^
+  File "C:\Users\new user farhat\AppData\Local\Programs\Python\Python313\Lib\http\client.py", line 479, in read
+    s = self.fp.read(amt)
+  File "C:\Users\new user farhat\AppData\Local\Programs\Python\Python313\Lib\socket.py", line 719, in readinto
+    return self._sock.recv_into(b)
+           ~~~~~~~~~~~~~~~~~~~~^^^
+  File "C:\Users\new user farhat\AppData\Local\Programs\Python\Python313\Lib\ssl.py", line 1304, in recv_into
+    return self.read(nbytes, buffer)
+           ~~~~~~~~~^^^^^^^^^^^^^^^^
+  File "C:\Users\new user farhat\AppData\Local\Programs\Python\Python313\Lib\ssl.py", line 1138, in read
+    return self._sslobj.read(len, buffer)
+           ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+ConnectionAbortedError: [WinError 10053] An established connection was aborted by the software in your host machine
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "D:\Kidney-Disease-classification-cnn\.venv\Lib\site-packages\requests\models.py", line 820, in generate
+    yield from self.raw.stream(chunk_size, decode_content=True)
+  File "D:\Kidney-Disease-classification-cnn\.venv\Lib\site-packages\urllib3\response.py", line 1091, in stream
+    data = self.read(amt=amt, decode_content=decode_content)
+  File "D:\Kidney-Disease-classification-cnn\.venv\Lib\site-packages\urllib3\response.py", line 980, in read
+    data = self._raw_read(amt)
+  File "D:\Kidney-Disease-classification-cnn\.venv\Lib\site-packages\urllib3\response.py", line 903, in _raw_read
+    with self._error_catcher():
+         ~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\new user farhat\AppData\Local\Programs\Python\Python313\Lib\contextlib.py", line 162, in __exit__
+    self.gen.throw(value)
+    ~~~~~~~~~~~~~~^^^^^^^
+  File "D:\Kidney-Disease-classification-cnn\.venv\Lib\site-packages\urllib3\response.py", line 806, in _error_catcher
+    raise ProtocolError(f"Connection broken: {e!r}", e) from e
+urllib3.exceptions.ProtocolError: ("Connection broken: ConnectionAbortedError(10053, 'An established connection was aborted by the software in your host machine', None, 10053, None)", ConnectionAbortedError(10053, 'An established connection was aborted by the software in your host machine', None, 10053, None))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "d:\Kidney-Disease-classification-cnn\main.py", line 15, in <module>
+    obj.main()
+    ~~~~~~~~^^
+  File "D:\Kidney-Disease-classification-cnn\src\cnn_classifier\pipeline\stage_01_data_ingestion.py", line 14, in main
+    data_integestion.download_file()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "D:\Kidney-Disease-classification-cnn\src\cnn_classifier\components\data_ingestion.py", line 28, in download_file
+    raise e
+  File "D:\Kidney-Disease-classification-cnn\src\cnn_classifier\components\data_ingestion.py", line 23, in download_file
+    gdown.download(prefix+file_id, str(zip_download_dir))
+    ~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Kidney-Disease-classification-cnn\.venv\Lib\site-packages\gdown\download.py", line 368, in download
+    for chunk in res.iter_content(chunk_size=CHUNK_SIZE):
+                 ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Kidney-Disease-classification-cnn\.venv\Lib\site-packages\requests\models.py", line 822, in generate
+    raise ChunkedEncodingError(e)
+requests.exceptions.ChunkedEncodingError: ("Connection broken: ConnectionAbortedError(10053, 'An established connection was aborted by the software in your host machine', None, 10053, None)", ConnectionAbortedError(10053, 'An established connection was aborted by the software in your host machine', None, 10053, None))
+[2025-10-31 19:16:37,340 - cnn_classifier - INFO - >>>>> stage Data Ingestion Stage started <<<<<]
+[2025-10-31 19:16:37,344 - cnn_classifier - INFO - yaml file:config\config.yaml loaded successfully]
+[2025-10-31 19:16:37,346 - cnn_classifier - INFO - yaml file:params.yaml loaded successfully]
+[2025-10-31 19:16:37,347 - cnn_classifier - INFO - created directory at:artifacts]
+[2025-10-31 19:16:37,347 - cnn_classifier - INFO - created directory at:artifacts/data_ingestion]
+[2025-10-31 19:16:37,348 - cnn_classifier - INFO - Downloading file from :https://drive.google.com/file/d/15AWxlgsbETlz277Hqc_9bt39EqIuwfNj/view?usp=sharing into file :artifacts\data_ingestion\data.zip]
+[2025-10-31 19:50:52,943 - cnn_classifier - INFO - Downloaded data from: https://drive.google.com/file/d/15AWxlgsbETlz277Hqc_9bt39EqIuwfNj/view?usp=sharing into file :artifacts\data_ingestion\data.zip of size :~ 917945 KB]
+[2025-10-31 19:51:09,547 - cnn_classifier - INFO - >>>>> stage Data Ingestion Stage completed <<<<<
+
+x==========x]
+[2025-10-31 19:51:09,548 - cnn_classifier - INFO - >>>>> stage Base Model Preparation Stage started <<<<<]
+[2025-10-31 19:51:09,622 - cnn_classifier - INFO - yaml file:config\config.yaml loaded successfully]
+[2025-10-31 19:51:09,647 - cnn_classifier - INFO - yaml file:params.yaml loaded successfully]
+[2025-10-31 19:51:09,649 - cnn_classifier - INFO - created directory at:artifacts]
+[2025-10-31 19:51:09,650 - cnn_classifier - INFO - created directory at:artifacts/prepare_base_model]
+[2025-10-31 19:51:11,102 - absl - WARNING - You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. ]
+[2025-10-31 19:51:11,455 - absl - WARNING - You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. ]
+[2025-10-31 19:51:11,705 - cnn_classifier - INFO - >>>>> stage Base Model Preparation Stage completed <<<<<
+
+x==========x]
+[2025-10-31 19:51:11,706 - cnn_classifier - INFO - >>>>> stage Model Training Stage started <<<<<]
+[2025-10-31 19:51:13,726 - cnn_classifier - INFO - yaml file:config\config.yaml loaded successfully]
+[2025-10-31 19:51:13,728 - cnn_classifier - INFO - yaml file:params.yaml loaded successfully]
+[2025-10-31 19:51:13,729 - cnn_classifier - INFO - created directory at:artifacts]
+[2025-10-31 19:51:13,730 - cnn_classifier - INFO - created directory at:artifacts\training]
+[2025-10-31 19:51:14,156 - cnn_classifier - INFO - >>>>> stage Model Training Stage completed <<<<<
+
+x==========x]
+[2025-10-31 22:10:57,650 - cnn_classifier - INFO - yaml file:config\config.yaml loaded successfully]
+[2025-10-31 22:10:57,662 - cnn_classifier - INFO - yaml file:params.yaml loaded successfully]
+[2025-10-31 22:10:57,666 - cnn_classifier - INFO - created directory at:artifacts]
+[2025-10-31 22:10:57,673 - cnn_classifier - INFO - created directory at:artifacts\training]
+[2025-10-31 22:13:57,732 - cnn_classifier - INFO - >>>>> stage Data Ingestion Stage started <<<<<]
+[2025-10-31 22:13:57,763 - cnn_classifier - INFO - yaml file:config\config.yaml loaded successfully]
+[2025-10-31 22:13:57,796 - cnn_classifier - INFO - yaml file:params.yaml loaded successfully]
+[2025-10-31 22:13:57,818 - cnn_classifier - INFO - created directory at:artifacts]
+[2025-10-31 22:13:57,870 - cnn_classifier - INFO - created directory at:artifacts/data_ingestion]
+[2025-10-31 22:13:57,896 - cnn_classifier - INFO - Downloading file from :https://drive.google.com/file/d/15AWxlgsbETlz277Hqc_9bt39EqIuwfNj/view?usp=sharing into file :artifacts\data_ingestion\data.zip]
+[2025-11-01 10:17:08,599 - cnn_classifier - ERROR - ("Connection broken: ConnectionAbortedError(10053, 'An established connection was aborted by the software in your host machine', None, 10053, None)", ConnectionAbortedError(10053, 'An established connection was aborted by the software in your host machine', None, 10053, None))]
+Traceback (most recent call last):
+  File "D:\Kidney-Disease-classification-cnn\.venv\Lib\site-packages\urllib3\response.py", line 779, in _error_catcher
+    yield
+  File "D:\Kidney-Disease-classification-cnn\.venv\Lib\site-packages\urllib3\response.py", line 904, in _raw_read
+    data = self._fp_read(amt, read1=read1) if not fp_closed else b""
+           ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^
+  File "D:\Kidney-Disease-classification-cnn\.venv\Lib\site-packages\urllib3\response.py", line 887, in _fp_read
+    return self._fp.read(amt) if amt is not None else self._fp.read()
+           ~~~~~~~~~~~~~^^^^^
+  File "C:\Users\new user farhat\AppData\Local\Programs\Python\Python313\Lib\http\client.py", line 479, in read
+    s = self.fp.read(amt)
+  File "C:\Users\new user farhat\AppData\Local\Programs\Python\Python313\Lib\socket.py", line 719, in readinto
+    return self._sock.recv_into(b)
+           ~~~~~~~~~~~~~~~~~~~~^^^
+  File "C:\Users\new user farhat\AppData\Local\Programs\Python\Python313\Lib\ssl.py", line 1304, in recv_into
+    return self.read(nbytes, buffer)
+           ~~~~~~~~~^^^^^^^^^^^^^^^^
+  File "C:\Users\new user farhat\AppData\Local\Programs\Python\Python313\Lib\ssl.py", line 1138, in read
+    return self._sslobj.read(len, buffer)
+           ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+ConnectionAbortedError: [WinError 10053] An established connection was aborted by the software in your host machine
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "D:\Kidney-Disease-classification-cnn\.venv\Lib\site-packages\requests\models.py", line 820, in generate
+    yield from self.raw.stream(chunk_size, decode_content=True)
+  File "D:\Kidney-Disease-classification-cnn\.venv\Lib\site-packages\urllib3\response.py", line 1091, in stream
+    data = self.read(amt=amt, decode_content=decode_content)
+  File "D:\Kidney-Disease-classification-cnn\.venv\Lib\site-packages\urllib3\response.py", line 980, in read
+    data = self._raw_read(amt)
+  File "D:\Kidney-Disease-classification-cnn\.venv\Lib\site-packages\urllib3\response.py", line 903, in _raw_read
+    with self._error_catcher():
+         ~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\new user farhat\AppData\Local\Programs\Python\Python313\Lib\contextlib.py", line 162, in __exit__
+    self.gen.throw(value)
+    ~~~~~~~~~~~~~~^^^^^^^
+  File "D:\Kidney-Disease-classification-cnn\.venv\Lib\site-packages\urllib3\response.py", line 806, in _error_catcher
+    raise ProtocolError(f"Connection broken: {e!r}", e) from e
+urllib3.exceptions.ProtocolError: ("Connection broken: ConnectionAbortedError(10053, 'An established connection was aborted by the software in your host machine', None, 10053, None)", ConnectionAbortedError(10053, 'An established connection was aborted by the software in your host machine', None, 10053, None))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "d:\Kidney-Disease-classification-cnn\main.py", line 15, in <module>
+    obj.main()
+    ~~~~~~~~^^
+  File "D:\Kidney-Disease-classification-cnn\src\cnn_classifier\pipeline\stage_01_data_ingestion.py", line 14, in main
+    data_integestion.download_file()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "D:\Kidney-Disease-classification-cnn\src\cnn_classifier\components\data_ingestion.py", line 28, in download_file
+    raise e
+  File "D:\Kidney-Disease-classification-cnn\src\cnn_classifier\components\data_ingestion.py", line 23, in download_file
+    gdown.download(prefix+file_id, str(zip_download_dir))
+    ~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Kidney-Disease-classification-cnn\.venv\Lib\site-packages\gdown\download.py", line 368, in download
+    for chunk in res.iter_content(chunk_size=CHUNK_SIZE):
+                 ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Kidney-Disease-classification-cnn\.venv\Lib\site-packages\requests\models.py", line 822, in generate
+    raise ChunkedEncodingError(e)
+requests.exceptions.ChunkedEncodingError: ("Connection broken: ConnectionAbortedError(10053, 'An established connection was aborted by the software in your host machine', None, 10053, None)", ConnectionAbortedError(10053, 'An established connection was aborted by the software in your host machine', None, 10053, None))
+[2025-11-01 10:18:15,685 - cnn_classifier - INFO - >>>>> stage Data Ingestion Stage started <<<<<]
+[2025-11-01 10:18:15,700 - cnn_classifier - INFO - yaml file:config\config.yaml loaded successfully]
+[2025-11-01 10:18:15,716 - cnn_classifier - INFO - yaml file:params.yaml loaded successfully]
+[2025-11-01 10:18:15,726 - cnn_classifier - INFO - created directory at:artifacts]
+[2025-11-01 10:18:15,768 - cnn_classifier - INFO - created directory at:artifacts/data_ingestion]
+[2025-11-01 10:18:15,807 - cnn_classifier - INFO - Downloading file from :https://drive.google.com/file/d/15AWxlgsbETlz277Hqc_9bt39EqIuwfNj/view?usp=sharing into file :artifacts\data_ingestion\data.zip]
+[2025-11-01 10:50:49,415 - cnn_classifier - INFO - Downloaded data from: https://drive.google.com/file/d/15AWxlgsbETlz277Hqc_9bt39EqIuwfNj/view?usp=sharing into file :artifacts\data_ingestion\data.zip of size :~ 917945 KB]
+[2025-11-01 10:51:04,704 - cnn_classifier - INFO - >>>>> stage Data Ingestion Stage completed <<<<<
+
+x==========x]
+[2025-11-01 10:51:04,704 - cnn_classifier - INFO - >>>>> stage Base Model Preparation Stage started <<<<<]
+[2025-11-01 10:51:04,753 - cnn_classifier - INFO - yaml file:config\config.yaml loaded successfully]
+[2025-11-01 10:51:04,776 - cnn_classifier - INFO - yaml file:params.yaml loaded successfully]
+[2025-11-01 10:51:04,792 - cnn_classifier - INFO - created directory at:artifacts]
+[2025-11-01 10:51:04,793 - cnn_classifier - INFO - created directory at:artifacts/prepare_base_model]
+[2025-11-01 10:51:06,218 - absl - WARNING - You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. ]
+[2025-11-01 10:51:06,550 - absl - WARNING - You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. ]
+[2025-11-01 10:51:06,712 - cnn_classifier - INFO - >>>>> stage Base Model Preparation Stage completed <<<<<
+
+x==========x]
+[2025-11-01 10:51:06,713 - cnn_classifier - INFO - >>>>> stage Model Training Stage started <<<<<]
+[2025-11-01 10:51:09,078 - cnn_classifier - INFO - yaml file:config\config.yaml loaded successfully]
+[2025-11-01 10:51:09,080 - cnn_classifier - INFO - yaml file:params.yaml loaded successfully]
+[2025-11-01 10:51:09,081 - cnn_classifier - INFO - created directory at:artifacts]
+[2025-11-01 10:51:09,081 - cnn_classifier - INFO - created directory at:artifacts\training]
+[2025-11-01 11:03:41,624 - absl - WARNING - You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. ]
+[2025-11-01 11:34:16,309 - absl - WARNING - You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. ]
+[2025-11-01 11:46:36,457 - absl - WARNING - You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. ]
+[2025-11-01 12:16:30,851 - absl - WARNING - You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. ]
+[2025-11-01 12:16:31,021 - cnn_classifier - INFO - >>>>> stage Model Training Stage completed <<<<<
+
+x==========x]
