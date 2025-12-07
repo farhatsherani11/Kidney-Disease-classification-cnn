@@ -68,13 +68,20 @@ data/  # If you have raw data that's too large
 *.xml
 
 # === Model Files (Large) ===
+
+
+artifacts/
+*.jpg
+*.jpeg
+*.png
+*.zip
+*.part
 *.h5
-*.hdf5
+*.ckpt
+*.pt
+
 *.pkl
 *.pickle
-*.joblib
-*.model
-artifacts/  # Your training artifacts - DON'T commit these!
 
 # === Temporary Files ===
 *.tmp
