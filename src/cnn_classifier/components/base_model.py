@@ -11,7 +11,11 @@ class PrepareBaseModel:
 
     def get_base_model(self):
         self.model = tf.keras.applications.VGG16(
-            input_shape=self.config.params_Image_size,
+             input_shape=(
+        self.config.params_Image_size[0],
+        self.config.params_Image_size[1],
+        3
+    ),
             weights=self.config.params_weights,
             include_top=self.config.params_include_top,
         )

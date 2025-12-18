@@ -34,14 +34,15 @@ class Training:
             rescale=1./255,
             validation_split=0.20
         )
-
         dataflow_kwargs = dict(
-            target_size=self.config.params_image_size[:-1],
-            batch_size=self.config.batch_size,
-            interpolation="bilinear",
-            class_mode="categorical"
-        )
-
+    target_size=(
+        self.config.params_image_size[0],
+        self.config.params_image_size[1]
+    ),
+    batch_size=self.config.batch_size,
+    interpolation="bilinear",
+    class_mode="categorical"
+)
         valid_datagenerator = tf.keras.preprocessing.image.ImageDataGenerator(
             **datagenerator_kwargs
         )
