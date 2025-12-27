@@ -1248,3 +1248,106 @@ x==========x]
 [2025-12-18 22:36:03,439 - cnn_classifier - INFO - >>>>> stage Evalution Stage completed <<<<<
 
 x==========x]
+[2025-12-25 18:06:50,766 - cnn_classifier - INFO - >>>>> stage Data Ingestion Stage started <<<<<]
+[2025-12-25 18:06:50,807 - cnn_classifier - INFO - yaml file:config\config.yaml loaded successfully]
+[2025-12-25 18:06:50,818 - cnn_classifier - INFO - yaml file:params.yaml loaded successfully]
+[2025-12-25 18:06:50,820 - cnn_classifier - INFO - created directory at:artifacts]
+[2025-12-25 18:06:50,823 - cnn_classifier - INFO - created directory at:artifacts/data_ingestion]
+[2025-12-25 18:06:50,826 - cnn_classifier - INFO - Downloading file from :https://drive.google.com/file/d/15AWxlgsbETlz277Hqc_9bt39EqIuwfNj/view?usp=sharing into file :artifacts\data_ingestion\data.zip]
+[2025-12-25 18:08:45,350 - cnn_classifier - INFO - Downloaded data from: https://drive.google.com/file/d/15AWxlgsbETlz277Hqc_9bt39EqIuwfNj/view?usp=sharing into file :artifacts\data_ingestion\data.zip of size :~ 917945 KB]
+[2025-12-25 18:09:01,386 - cnn_classifier - INFO - >>>>> stage Data Ingestion Stage completed <<<<<
+
+x==========x]
+[2025-12-25 18:11:15,081 - cnn_classifier - INFO - >>>>> stage Base Model Preparation Stage started <<<<<]
+[2025-12-25 18:11:15,085 - cnn_classifier - INFO - yaml file:config\config.yaml loaded successfully]
+[2025-12-25 18:11:15,091 - cnn_classifier - INFO - yaml file:params.yaml loaded successfully]
+[2025-12-25 18:11:15,093 - cnn_classifier - INFO - created directory at:artifacts]
+[2025-12-25 18:11:15,094 - cnn_classifier - INFO - created directory at:artifacts/prepare_base_model]
+[2025-12-25 18:11:15,847 - absl - WARNING - You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. ]
+[2025-12-25 18:11:16,078 - absl - WARNING - You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. ]
+[2025-12-25 18:11:16,231 - cnn_classifier - INFO - >>>>> stage Base Model Preparation Stage completed <<<<<
+
+x==========x]
+[2025-12-25 18:12:31,607 - cnn_classifier - INFO - >>>>> stage Model Training Stage started <<<<<]
+[2025-12-25 18:12:32,743 - cnn_classifier - INFO - yaml file:config\config.yaml loaded successfully]
+[2025-12-25 18:12:32,746 - cnn_classifier - INFO - yaml file:params.yaml loaded successfully]
+[2025-12-25 18:12:32,747 - cnn_classifier - INFO - created directory at:artifacts]
+[2025-12-25 18:12:32,747 - cnn_classifier - INFO - created directory at:artifacts\training]
+[2025-12-25 18:25:00,772 - absl - WARNING - You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. ]
+[2025-12-25 18:55:32,158 - absl - WARNING - You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. ]
+[2025-12-25 18:55:32,369 - cnn_classifier - INFO - >>>>> stage Model Training Stage completed <<<<<
+
+x==========x]
+[2025-12-26 00:23:19,079 - cnn_classifier - INFO - ***************************]
+[2025-12-26 00:23:19,080 - cnn_classifier - INFO - >>>>> stage Evalution Stage started <<<<<]
+[2025-12-26 00:23:19,083 - cnn_classifier - INFO - yaml file:config\config.yaml loaded successfully]
+[2025-12-26 00:23:19,093 - cnn_classifier - INFO - yaml file:params.yaml loaded successfully]
+[2025-12-26 00:23:19,095 - cnn_classifier - INFO - created directory at:artifacts]
+[2025-12-26 00:23:19,813 - absl - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.]
+[2025-12-26 00:32:26,565 - cnn_classifier - INFO - json file saved at:scores.json]
+[2025-12-26 00:33:02,079 - cnn_classifier - INFO - >>>>> stage Evalution Stage completed <<<<<
+
+x==========x]
+[2025-12-26 00:35:00,351 - cnn_classifier - INFO - ***************************]
+[2025-12-26 00:35:00,352 - cnn_classifier - INFO - >>>>> stage Evalution Stage started <<<<<]
+[2025-12-26 00:35:00,355 - cnn_classifier - INFO - yaml file:config\config.yaml loaded successfully]
+[2025-12-26 00:35:00,365 - cnn_classifier - INFO - yaml file:params.yaml loaded successfully]
+[2025-12-26 00:35:00,366 - cnn_classifier - INFO - created directory at:artifacts]
+[2025-12-26 00:35:00,937 - absl - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.]
+[2025-12-26 00:43:28,054 - cnn_classifier - INFO - json file saved at:scores.json]
+[2025-12-26 00:43:51,511 - cnn_classifier - INFO - >>>>> stage Evalution Stage completed <<<<<
+
+x==========x]
+[2025-12-26 10:16:40,184 - cnn_classifier - INFO - >>>>> stage Model Training Stage started <<<<<]
+[2025-12-26 10:16:41,329 - cnn_classifier - INFO - yaml file:config\config.yaml loaded successfully]
+[2025-12-26 10:16:41,337 - cnn_classifier - INFO - yaml file:params.yaml loaded successfully]
+[2025-12-26 10:16:41,339 - cnn_classifier - INFO - created directory at:artifacts]
+[2025-12-26 10:16:41,340 - cnn_classifier - INFO - created directory at:artifacts\training]
+[2025-12-26 10:30:21,256 - absl - WARNING - You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. ]
+[2025-12-26 11:08:13,177 - absl - WARNING - You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. ]
+[2025-12-26 11:08:13,455 - cnn_classifier - INFO - >>>>> stage Model Training Stage completed <<<<<
+
+x==========x]
+[2025-12-26 11:08:40,635 - cnn_classifier - INFO - ***************************]
+[2025-12-26 11:08:40,635 - cnn_classifier - INFO - >>>>> stage Evalution Stage started <<<<<]
+[2025-12-26 11:08:40,637 - cnn_classifier - INFO - yaml file:config\config.yaml loaded successfully]
+[2025-12-26 11:08:40,642 - cnn_classifier - INFO - yaml file:params.yaml loaded successfully]
+[2025-12-26 11:08:40,643 - cnn_classifier - INFO - created directory at:artifacts]
+[2025-12-26 11:08:41,136 - absl - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.]
+[2025-12-26 11:18:22,424 - cnn_classifier - INFO - json file saved at:scores.json]
+[2025-12-26 11:18:48,209 - cnn_classifier - INFO - >>>>> stage Evalution Stage completed <<<<<
+
+x==========x]
+[2025-12-26 11:32:12,842 - cnn_classifier - INFO - >>>>> stage Base Model Preparation Stage started <<<<<]
+[2025-12-26 11:32:12,846 - cnn_classifier - INFO - yaml file:config\config.yaml loaded successfully]
+[2025-12-26 11:32:12,848 - cnn_classifier - INFO - yaml file:params.yaml loaded successfully]
+[2025-12-26 11:32:12,849 - cnn_classifier - INFO - created directory at:artifacts]
+[2025-12-26 11:32:12,850 - cnn_classifier - INFO - created directory at:artifacts/prepare_base_model]
+[2025-12-26 11:32:13,491 - absl - WARNING - You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. ]
+[2025-12-26 11:32:13,765 - absl - WARNING - You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. ]
+[2025-12-26 11:32:13,931 - cnn_classifier - INFO - >>>>> stage Base Model Preparation Stage completed <<<<<
+
+x==========x]
+[2025-12-26 11:32:28,107 - cnn_classifier - INFO - >>>>> stage Model Training Stage started <<<<<]
+[2025-12-26 11:32:29,110 - cnn_classifier - INFO - yaml file:config\config.yaml loaded successfully]
+[2025-12-26 11:32:29,113 - cnn_classifier - INFO - yaml file:params.yaml loaded successfully]
+[2025-12-26 11:32:29,113 - cnn_classifier - INFO - created directory at:artifacts]
+[2025-12-26 11:32:29,114 - cnn_classifier - INFO - created directory at:artifacts\training]
+[2025-12-26 11:47:25,806 - absl - WARNING - You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. ]
+[2025-12-26 12:03:45,131 - absl - WARNING - You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. ]
+[2025-12-26 12:10:25,511 - absl - WARNING - You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. ]
+[2025-12-26 12:25:52,379 - absl - WARNING - You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. ]
+[2025-12-26 13:02:19,221 - absl - WARNING - You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. ]
+[2025-12-26 13:02:19,434 - cnn_classifier - INFO - >>>>> stage Model Training Stage completed <<<<<
+
+x==========x]
+[2025-12-26 13:03:02,335 - cnn_classifier - INFO - ***************************]
+[2025-12-26 13:03:02,335 - cnn_classifier - INFO - >>>>> stage Evalution Stage started <<<<<]
+[2025-12-26 13:03:02,354 - cnn_classifier - INFO - yaml file:config\config.yaml loaded successfully]
+[2025-12-26 13:03:02,359 - cnn_classifier - INFO - yaml file:params.yaml loaded successfully]
+[2025-12-26 13:03:02,361 - cnn_classifier - INFO - created directory at:artifacts]
+[2025-12-26 13:03:02,801 - absl - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.]
+[2025-12-26 13:11:44,693 - cnn_classifier - INFO - json file saved at:scores.json]
+[2025-12-26 13:12:18,673 - cnn_classifier - INFO - >>>>> stage Evalution Stage completed <<<<<
+
+x==========x]
