@@ -9,6 +9,7 @@ import json
 import joblib
 from ensure import ensure_annotations
 from typing import Any
+import base64
 
 @ensure_annotations
 def read_yaml(path_to_yaml:Path)->ConfigBox:
@@ -108,3 +109,18 @@ def get_size(path:Path)->str:
     size_in_kb=round(os.path.getsize(path)/1024)
     return f"~ {size_in_kb} KB"
 
+
+
+def decode_image(imgstring, fileName):
+    # Remove the data:image/jpeg;base64, prefix if present
+    if imgstring.startswith('data:image'):
+        imgstring = imgstring.split(',')[1]
+    
+    imgdata = base64.b64decode(imgstring)
+    with open(fileName, 'wb') as f:
+        f.write(imgdata)
+        f.close()
+
+def encode_image(img_path):
+    with open(img_path, "rb") as f:
+        return base64.b64encode(f.read())

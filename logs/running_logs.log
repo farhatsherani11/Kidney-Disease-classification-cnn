@@ -1351,3 +1351,121 @@ x==========x]
 [2025-12-26 13:12:18,673 - cnn_classifier - INFO - >>>>> stage Evalution Stage completed <<<<<
 
 x==========x]
+[2025-12-29 14:26:37,509 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8000
+ * Running on http://192.168.1.107:8000]
+[2025-12-29 14:26:37,510 - werkzeug - INFO - [33mPress CTRL+C to quit[0m]
+[2025-12-29 14:26:52,939 - werkzeug - INFO - 127.0.0.1 - - [29/Dec/2025 14:26:52] "GET / HTTP/1.1" 200 -]
+[2025-12-29 14:26:53,174 - werkzeug - INFO - 127.0.0.1 - - [29/Dec/2025 14:26:53] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -]
+[2025-12-29 14:27:27,749 - absl - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.]
+[2025-12-29 14:27:28,189 - app - ERROR - Exception on /predict [POST]]
+Traceback (most recent call last):
+  File "D:\Kidney-Disease-classification-cnn\.venv\Lib\site-packages\flask\app.py", line 1511, in wsgi_app
+    response = self.full_dispatch_request()
+  File "D:\Kidney-Disease-classification-cnn\.venv\Lib\site-packages\flask\app.py", line 919, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "D:\Kidney-Disease-classification-cnn\.venv\Lib\site-packages\flask_cors\extension.py", line 176, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+                                                ~^^^^^^^^^^^^^^^^^
+  File "D:\Kidney-Disease-classification-cnn\.venv\Lib\site-packages\flask\app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "D:\Kidney-Disease-classification-cnn\.venv\Lib\site-packages\flask\app.py", line 902, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "D:\Kidney-Disease-classification-cnn\.venv\Lib\site-packages\flask_cors\decorator.py", line 121, in wrapped_function
+    resp = make_response(f(*args, **kwargs))
+                         ~^^^^^^^^^^^^^^^^^
+  File "d:\Kidney-Disease-classification-cnn\app.py", line 38, in predictRoute
+    results=clApp.classifier.predict()
+  File "d:\Kidney-Disease-classification-cnn\src\cnn_classifier\pipeline\prediction.py", line 14, in predict
+    test_image=image.load_img(imagename,target_size=(224,224))
+  File "D:\Kidney-Disease-classification-cnn\.venv\Lib\site-packages\keras\src\utils\image_utils.py", line 236, in load_img
+    img = pil_image.open(io.BytesIO(f.read()))
+  File "D:\Kidney-Disease-classification-cnn\.venv\Lib\site-packages\PIL\Image.py", line 3560, in open
+    raise UnidentifiedImageError(msg)
+PIL.UnidentifiedImageError: cannot identify image file <_io.BytesIO object at 0x000001D2891FBB00>
+[2025-12-29 14:27:28,345 - werkzeug - INFO - 127.0.0.1 - - [29/Dec/2025 14:27:28] "[35m[1mPOST /predict HTTP/1.1[0m" 500 -]
+[2025-12-29 14:28:34,695 - absl - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.]
+[2025-12-29 14:28:34,716 - app - ERROR - Exception on /predict [POST]]
+Traceback (most recent call last):
+  File "D:\Kidney-Disease-classification-cnn\.venv\Lib\site-packages\flask\app.py", line 1511, in wsgi_app
+    response = self.full_dispatch_request()
+  File "D:\Kidney-Disease-classification-cnn\.venv\Lib\site-packages\flask\app.py", line 919, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "D:\Kidney-Disease-classification-cnn\.venv\Lib\site-packages\flask_cors\extension.py", line 176, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+                                                ~^^^^^^^^^^^^^^^^^
+  File "D:\Kidney-Disease-classification-cnn\.venv\Lib\site-packages\flask\app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "D:\Kidney-Disease-classification-cnn\.venv\Lib\site-packages\flask\app.py", line 902, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "D:\Kidney-Disease-classification-cnn\.venv\Lib\site-packages\flask_cors\decorator.py", line 121, in wrapped_function
+    resp = make_response(f(*args, **kwargs))
+                         ~^^^^^^^^^^^^^^^^^
+  File "d:\Kidney-Disease-classification-cnn\app.py", line 38, in predictRoute
+    results=clApp.classifier.predict()
+  File "d:\Kidney-Disease-classification-cnn\src\cnn_classifier\pipeline\prediction.py", line 14, in predict
+    test_image=image.load_img(imagename,target_size=(224,224))
+  File "D:\Kidney-Disease-classification-cnn\.venv\Lib\site-packages\keras\src\utils\image_utils.py", line 236, in load_img
+    img = pil_image.open(io.BytesIO(f.read()))
+  File "D:\Kidney-Disease-classification-cnn\.venv\Lib\site-packages\PIL\Image.py", line 3560, in open
+    raise UnidentifiedImageError(msg)
+PIL.UnidentifiedImageError: cannot identify image file <_io.BytesIO object at 0x000001D2FECA7E20>
+[2025-12-29 14:28:34,735 - werkzeug - INFO - 127.0.0.1 - - [29/Dec/2025 14:28:34] "[35m[1mPOST /predict HTTP/1.1[0m" 500 -]
+[2025-12-29 14:28:56,663 - absl - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.]
+[2025-12-29 14:28:56,689 - app - ERROR - Exception on /predict [POST]]
+Traceback (most recent call last):
+  File "D:\Kidney-Disease-classification-cnn\.venv\Lib\site-packages\flask\app.py", line 1511, in wsgi_app
+    response = self.full_dispatch_request()
+  File "D:\Kidney-Disease-classification-cnn\.venv\Lib\site-packages\flask\app.py", line 919, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "D:\Kidney-Disease-classification-cnn\.venv\Lib\site-packages\flask_cors\extension.py", line 176, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+                                                ~^^^^^^^^^^^^^^^^^
+  File "D:\Kidney-Disease-classification-cnn\.venv\Lib\site-packages\flask\app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "D:\Kidney-Disease-classification-cnn\.venv\Lib\site-packages\flask\app.py", line 902, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "D:\Kidney-Disease-classification-cnn\.venv\Lib\site-packages\flask_cors\decorator.py", line 121, in wrapped_function
+    resp = make_response(f(*args, **kwargs))
+                         ~^^^^^^^^^^^^^^^^^
+  File "d:\Kidney-Disease-classification-cnn\app.py", line 38, in predictRoute
+    results=clApp.classifier.predict()
+  File "d:\Kidney-Disease-classification-cnn\src\cnn_classifier\pipeline\prediction.py", line 14, in predict
+    test_image=image.load_img(imagename,target_size=(224,224))
+  File "D:\Kidney-Disease-classification-cnn\.venv\Lib\site-packages\keras\src\utils\image_utils.py", line 236, in load_img
+    img = pil_image.open(io.BytesIO(f.read()))
+  File "D:\Kidney-Disease-classification-cnn\.venv\Lib\site-packages\PIL\Image.py", line 3560, in open
+    raise UnidentifiedImageError(msg)
+PIL.UnidentifiedImageError: cannot identify image file <_io.BytesIO object at 0x000001D2918B9E40>
+[2025-12-29 14:28:56,708 - werkzeug - INFO - 127.0.0.1 - - [29/Dec/2025 14:28:56] "[35m[1mPOST /predict HTTP/1.1[0m" 500 -]
+[2025-12-29 14:35:21,028 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8000
+ * Running on http://192.168.1.107:8000]
+[2025-12-29 14:35:21,033 - werkzeug - INFO - [33mPress CTRL+C to quit[0m]
+[2025-12-29 14:35:51,091 - werkzeug - INFO - 127.0.0.1 - - [29/Dec/2025 14:35:51] "GET / HTTP/1.1" 200 -]
+[2025-12-29 14:35:51,422 - werkzeug - INFO - 127.0.0.1 - - [29/Dec/2025 14:35:51] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -]
+[2025-12-29 14:36:10,415 - absl - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.]
+[2025-12-29 14:36:12,733 - werkzeug - INFO - 127.0.0.1 - - [29/Dec/2025 14:36:12] "POST /predict HTTP/1.1" 200 -]
+[2025-12-29 14:36:37,495 - absl - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.]
+[2025-12-29 14:36:39,286 - werkzeug - INFO - 127.0.0.1 - - [29/Dec/2025 14:36:39] "POST /predict HTTP/1.1" 200 -]
+[2025-12-29 14:38:13,158 - werkzeug - INFO - 127.0.0.1 - - [29/Dec/2025 14:38:13] "GET / HTTP/1.1" 200 -]
+[2025-12-29 14:39:00,425 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8000
+ * Running on http://192.168.1.107:8000]
+[2025-12-29 14:39:00,435 - werkzeug - INFO - [33mPress CTRL+C to quit[0m]
+[2025-12-29 14:39:07,867 - werkzeug - INFO - 127.0.0.1 - - [29/Dec/2025 14:39:07] "GET / HTTP/1.1" 200 -]
+[2025-12-29 14:39:08,107 - werkzeug - INFO - 127.0.0.1 - - [29/Dec/2025 14:39:08] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -]
+[2025-12-29 14:39:20,459 - absl - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.]
+[2025-12-29 14:39:22,493 - werkzeug - INFO - 127.0.0.1 - - [29/Dec/2025 14:39:22] "POST /predict HTTP/1.1" 200 -]
+[2025-12-29 14:52:27,020 - absl - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.]
+[2025-12-29 14:52:29,540 - werkzeug - INFO - 127.0.0.1 - - [29/Dec/2025 14:52:29] "POST /predict HTTP/1.1" 200 -]
+[2025-12-29 14:54:10,602 - absl - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.]
+[2025-12-29 14:54:12,740 - werkzeug - INFO - 127.0.0.1 - - [29/Dec/2025 14:54:12] "POST /predict HTTP/1.1" 200 -]
+[2025-12-29 14:57:27,281 - absl - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.]
+[2025-12-29 14:57:29,315 - werkzeug - INFO - 127.0.0.1 - - [29/Dec/2025 14:57:29] "POST /predict HTTP/1.1" 200 -]
