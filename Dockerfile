@@ -1,7 +1,7 @@
 FROM python:3.11-slim-buster  
 # Use official Python runtime as a parent image
 
-RUN apt-get update -y && apt install awscli -y
+# RUN apt-get update -y && apt install awscli -y
  # Install AWS CLI
 WORKDIR /app   
 # Set the working directory in the container
