@@ -1,0 +1,11 @@
+﻿{
+  "agentId": 22,
+  "agentName": "DESKTOP-92M0AOV",
+  "poolId": 1,
+  "poolName": "Default",
+  "serverUrl": "https://pipelinesghubeus2.actions.githubusercontent.com/Ajr8cKupht95jMCiQ0gAhpR9LaJ1sqDhqKYV7tjz8UYJVtfPzL/",
+  "gitHubUrl": "https://github.com/farhatsherani11/Kidney-Disease-classification-cnn",
+  "workFolder": "_work",
+  "useV2Flow": true,
+  "serverUrlV2": "https://broker.actions.githubusercontent.com/"
+}
