@@ -1,0 +1,435 @@
+﻿2026-01-15T19:29:49.8814914Z Current runner version: '2.331.0'
+2026-01-15T19:29:49.8828318Z Runner name: 'DESKTOP-92M0AOV'
+2026-01-15T19:29:49.8829416Z Runner group name: 'Default'
+2026-01-15T19:29:49.8830636Z Machine name: 'DESKTOP-92M0AOV'
+2026-01-15T19:29:49.8836958Z ##[group]GITHUB_TOKEN Permissions
+2026-01-15T19:29:49.8840055Z Contents: read
+2026-01-15T19:29:49.8840860Z Metadata: read
+2026-01-15T19:29:49.8841842Z ##[endgroup]
+2026-01-15T19:29:49.8846350Z Secret source: Actions
+2026-01-15T19:29:49.8847284Z Prepare workflow directory
+2026-01-15T19:29:49.9800366Z Prepare all required actions
+2026-01-15T19:29:49.9920721Z Getting action download info
+2026-01-15T19:29:51.3110384Z Download action repository 'actions/checkout@v3' (SHA:f43a0e5ff2bd294095638e18286ca9a3d1956744)
+2026-01-15T19:29:54.0013405Z Download action repository 'aws-actions/configure-aws-credentials@v1' (SHA:67fbcbb121271f7775d2e7715933280b06314838)
+2026-01-15T19:29:57.7057075Z Download action repository 'aws-actions/amazon-ecr-login@v1' (SHA:2fc7aceee09e9e4a7105c0d060c656fad0b4f63d)
+2026-01-15T19:30:00.9142184Z Complete job name: Continuous-Deployment
+2026-01-15T19:30:01.0551340Z ##[group]Run actions/checkout@v3
+2026-01-15T19:30:01.0553632Z with:
+2026-01-15T19:30:01.0554598Z   repository: farhatsherani11/Kidney-Disease-classification-cnn
+2026-01-15T19:30:01.0556154Z   token: ***
+2026-01-15T19:30:01.0556532Z   ssh-strict: true
+2026-01-15T19:30:01.0557031Z   persist-credentials: true
+2026-01-15T19:30:01.0557509Z   clean: true
+2026-01-15T19:30:01.0558061Z   sparse-checkout-cone-mode: true
+2026-01-15T19:30:01.0558645Z   fetch-depth: 1
+2026-01-15T19:30:01.0559017Z   fetch-tags: false
+2026-01-15T19:30:01.0559400Z   lfs: false
+2026-01-15T19:30:01.0559757Z   submodules: false
+2026-01-15T19:30:01.0560179Z   set-safe-directory: true
+2026-01-15T19:30:01.0561296Z ##[endgroup]
+2026-01-15T19:30:01.5143328Z Syncing repository: farhatsherani11/Kidney-Disease-classification-cnn
+2026-01-15T19:30:01.5146848Z ##[group]Getting Git version info
+2026-01-15T19:30:01.5149079Z Working directory is 'D:\Kidney-Disease-classification-cnn\actions-runner\_work\Kidney-Disease-classification-cnn\Kidney-Disease-classification-cnn'
+2026-01-15T19:30:01.5912271Z [command]"C:\Program Files\Git\cmd\git.exe" version
+2026-01-15T19:30:01.6471314Z git version 2.43.0.windows.1
+2026-01-15T19:30:01.6545783Z ##[endgroup]
+2026-01-15T19:30:01.6567311Z Copying 'C:\Users\new user farhat\.gitconfig' to 'D:\Kidney-Disease-classification-cnn\actions-runner\_work\_temp\01745778-b42f-40ec-b569-59a9120e4849\.gitconfig'
+2026-01-15T19:30:01.6610701Z Temporarily overriding HOME='D:\Kidney-Disease-classification-cnn\actions-runner\_work\_temp\01745778-b42f-40ec-b569-59a9120e4849' before making global git config changes
+2026-01-15T19:30:01.6613819Z Adding repository directory to the temporary git global config as a safe directory
+2026-01-15T19:30:01.6630023Z [command]"C:\Program Files\Git\cmd\git.exe" config --global --add safe.directory D:\Kidney-Disease-classification-cnn\actions-runner\_work\Kidney-Disease-classification-cnn\Kidney-Disease-classification-cnn
+2026-01-15T19:30:01.7194191Z [command]"C:\Program Files\Git\cmd\git.exe" config --local --get remote.origin.url
+2026-01-15T19:30:01.7695561Z https://github.com/farhatsherani11/Kidney-Disease-classification-cnn
+2026-01-15T19:30:01.7759251Z ##[group]Removing previously created refs, to avoid conflicts
+2026-01-15T19:30:01.7776006Z [command]"C:\Program Files\Git\cmd\git.exe" rev-parse --symbolic-full-name --verify --quiet HEAD
+2026-01-15T19:30:01.8216211Z refs/heads/main
+2026-01-15T19:30:01.8275250Z [command]"C:\Program Files\Git\cmd\git.exe" checkout --detach
+2026-01-15T19:30:01.9764031Z D	.venv/Lib/site-packages/debugpy/_vendored/pydevd/_pydevd_bundle/_debug_adapter/__pycache__/__main__pydevd_gen_debug_adapter_protocol.cpython-313.pyc
+2026-01-15T19:30:01.9768950Z D	.venv/Lib/site-packages/debugpy/_vendored/pydevd/_pydevd_bundle/pydevd_concurrency_analyser/__pycache__/pydevd_concurrency_logger.cpython-313.pyc
+2026-01-15T19:30:01.9773618Z D	.venv/Lib/site-packages/debugpy/_vendored/pydevd/_pydevd_bundle/pydevd_concurrency_analyser/__pycache__/pydevd_thread_wrappers.cpython-313.pyc
+2026-01-15T19:30:01.9780208Z D	.venv/Lib/site-packages/debugpy/_vendored/pydevd/_pydevd_frame_eval/vendored/bytecode/tests/__pycache__/test_peephole_opt.cpython-313.pyc
+2026-01-15T19:30:01.9783072Z D	.venv/Lib/site-packages/debugpy/_vendored/pydevd/_pydevd_frame_eval/vendored/bytecode/tests/__pycache__/util_annotation.cpython-313.pyc
+2026-01-15T19:30:01.9785673Z D	.venv/Lib/site-packages/debugpy/_vendored/pydevd/pydevd_plugins/extensions/types/__pycache__/pydevd_plugin_numpy_types.cpython-313.pyc
+2026-01-15T19:30:01.9789994Z D	.venv/Lib/site-packages/debugpy/_vendored/pydevd/pydevd_plugins/extensions/types/__pycache__/pydevd_plugin_pandas_types.cpython-313.pyc
+2026-01-15T19:30:01.9794425Z D	.venv/Lib/site-packages/debugpy/_vendored/pydevd/pydevd_plugins/extensions/types/__pycache__/pydevd_plugins_django_form_str.cpython-313.pyc
+2026-01-15T19:30:01.9800605Z D	.venv/Lib/site-packages/jedi/third_party/django-stubs/django-stubs/contrib/contenttypes/management/commands/remove_stale_contenttypes.pyi
+2026-01-15T19:30:01.9805050Z D	.venv/Lib/site-packages/jedi/third_party/typeshed/third_party/2and3/requests/packages/urllib3/packages/ssl_match_hostname/__init__.pyi
+2026-01-15T19:30:01.9809319Z D	.venv/Lib/site-packages/jedi/third_party/typeshed/third_party/2and3/requests/packages/urllib3/packages/ssl_match_hostname/_implementation.pyi
+2026-01-15T19:30:01.9813654Z D	.venv/Lib/site-packages/pkg_resources/tests/data/my-test-package_unpacked-egg/my_test_package-1.0-py3.7.egg/EGG-INFO/dependency_links.txt
+2026-01-15T19:30:01.9816286Z HEAD is now at 8a65589 last
+2026-01-15T19:30:02.0947134Z ##[endgroup]
+2026-01-15T19:30:02.0974505Z [command]"C:\Program Files\Git\cmd\git.exe" submodule status
+2026-01-15T19:30:03.4275556Z ##[error]fatal: no submodule mapping found in .gitmodules for path 'actions-runner/_work/Kidney-Disease-classification-cnn/Kidney-Disease-classification-cnn'
+2026-01-15T19:30:03.4369207Z Bad Submodules found, removing existing files
+2026-01-15T19:30:03.4371089Z ##[group]Cleaning the repository
+2026-01-15T19:30:03.4398716Z [command]"C:\Program Files\Git\cmd\git.exe" clean -ffdx
+2026-01-15T19:30:03.7647806Z [command]"C:\Program Files\Git\cmd\git.exe" reset --hard HEAD
+2026-01-15T19:30:04.1311762Z ##[error]error: unable to create file .venv/Lib/site-packages/debugpy/_vendored/pydevd/_pydevd_bundle/_debug_adapter/__pycache__/__main__pydevd_gen_debug_adapter_protocol.cpython-313.pyc: Filename too long
+2026-01-15T19:30:04.1323221Z ##[error]error: unable to create file .venv/Lib/site-packages/debugpy/_vendored/pydevd/_pydevd_bundle/pydevd_concurrency_analyser/__pycache__/pydevd_concurrency_logger.cpython-313.pyc: Filename too long
+2026-01-15T19:30:04.1336032Z ##[error]error: unable to create file .venv/Lib/site-packages/debugpy/_vendored/pydevd/_pydevd_bundle/pydevd_concurrency_analyser/__pycache__/pydevd_thread_wrappers.cpython-313.pyc: Filename too long
+2026-01-15T19:30:04.1407856Z ##[error]error: unable to create file .venv/Lib/site-packages/debugpy/_vendored/pydevd/_pydevd_frame_eval/vendored/bytecode/tests/__pycache__/test_peephole_opt.cpython-313.pyc: Filename too long
+2026-01-15T19:30:04.1417301Z ##[error]error: unable to create file .venv/Lib/site-packages/debugpy/_vendored/pydevd/_pydevd_frame_eval/vendored/bytecode/tests/__pycache__/util_annotation.cpython-313.pyc: Filename too long
+2026-01-15T19:30:04.1425932Z ##[error]error: unable to create file .venv/Lib/site-packages/debugpy/_vendored/pydevd/pydevd_plugins/extensions/types/__pycache__/pydevd_plugin_numpy_types.cpython-313.pyc: Filename too long
+2026-01-15T19:30:04.1443127Z ##[error]error: unable to create file .venv/Lib/site-packages/debugpy/_vendored/pydevd/pydevd_plugins/extensions/types/__pycache__/pydevd_plugin_pandas_types.cpython-313.pyc: Filename too long
+2026-01-15T19:30:04.1453027Z ##[error]error: unable to create file .venv/Lib/site-packages/debugpy/_vendored/pydevd/pydevd_plugins/extensions/types/__pycache__/pydevd_plugins_django_form_str.cpython-313.pyc: Filename too long
+2026-01-15T19:30:04.1465082Z ##[error]error: unable to create file .venv/Lib/site-packages/jedi/third_party/django-stubs/django-stubs/contrib/contenttypes/management/commands/remove_stale_contenttypes.pyi: Filename too long
+2026-01-15T19:30:04.1472592Z warning: unable to access '.venv/Lib/site-packages/jedi/third_party/typeshed/third_party/2and3/requests/packages/urllib3/packages/ssl_match_hostname/.gitattributes': Filename too long
+2026-01-15T19:30:04.1630412Z ##[error]error: unable to create file .venv/Lib/site-packages/jedi/third_party/typeshed/third_party/2and3/requests/packages/urllib3/packages/ssl_match_hostname/__init__.pyi: Filename too long
+2026-01-15T19:30:04.1641874Z ##[error]error: unable to create file .venv/Lib/site-packages/jedi/third_party/typeshed/third_party/2and3/requests/packages/urllib3/packages/ssl_match_hostname/_implementation.pyi: Filename too long
+2026-01-15T19:30:04.1655218Z ##[error]error: unable to create file .venv/Lib/site-packages/pkg_resources/tests/data/my-test-package_unpacked-egg/my_test_package-1.0-py3.7.egg/EGG-INFO/dependency_links.txt: Filename too long
+2026-01-15T19:30:04.1660553Z ##[error]fatal: Could not reset index file to revision 'HEAD'.
+2026-01-15T19:30:04.1664449Z ##[endgroup]
+2026-01-15T19:30:04.1688404Z ##[warning]Unable to clean or reset the repository. The repository will be recreated instead.
+2026-01-15T19:30:04.1693521Z Deleting the contents of 'D:\Kidney-Disease-classification-cnn\actions-runner\_work\Kidney-Disease-classification-cnn\Kidney-Disease-classification-cnn'
+2026-01-15T19:30:06.7333646Z ##[group]Initializing the repository
+2026-01-15T19:30:06.7595787Z [command]"C:\Program Files\Git\cmd\git.exe" init D:\Kidney-Disease-classification-cnn\actions-runner\_work\Kidney-Disease-classification-cnn\Kidney-Disease-classification-cnn
+2026-01-15T19:30:06.9286931Z Initialized empty Git repository in D:/Kidney-Disease-classification-cnn/actions-runner/_work/Kidney-Disease-classification-cnn/Kidney-Disease-classification-cnn/.git/
+2026-01-15T19:30:06.9421579Z [command]"C:\Program Files\Git\cmd\git.exe" remote add origin https://github.com/farhatsherani11/Kidney-Disease-classification-cnn
+2026-01-15T19:30:07.0227244Z ##[endgroup]
+2026-01-15T19:30:07.0228770Z ##[group]Disabling automatic garbage collection
+2026-01-15T19:30:07.0274716Z [command]"C:\Program Files\Git\cmd\git.exe" config --local gc.auto 0
+2026-01-15T19:30:07.0993323Z ##[endgroup]
+2026-01-15T19:30:07.1073568Z ##[group]Setting up auth
+2026-01-15T19:30:07.1107692Z [command]"C:\Program Files\Git\cmd\git.exe" config --local --name-only --get-regexp core\.sshCommand
+2026-01-15T19:30:07.3684336Z [command]"C:\Program Files\Git\cmd\git.exe" submodule foreach --recursive "sh -c \"git config --local --name-only --get-regexp 'core\.sshCommand' && git config --local --unset-all 'core.sshCommand' || :\""
+2026-01-15T19:30:09.0949505Z [command]"C:\Program Files\Git\cmd\git.exe" config --local --name-only --get-regexp http\.https\:\/\/github\.com\/\.extraheader
+2026-01-15T19:30:09.1585130Z [command]"C:\Program Files\Git\cmd\git.exe" submodule foreach --recursive "sh -c \"git config --local --name-only --get-regexp 'http\.https\:\/\/github\.com\/\.extraheader' && git config --local --unset-all 'http.https://github.com/.extraheader' || :\""
+2026-01-15T19:30:11.4640170Z [command]"C:\Program Files\Git\cmd\git.exe" config --local http.https://github.com/.extraheader "AUTHORIZATION: basic ***"
+2026-01-15T19:30:11.5570166Z ##[endgroup]
+2026-01-15T19:30:11.5577051Z ##[group]Fetching the repository
+2026-01-15T19:30:11.5580388Z [command]"C:\Program Files\Git\cmd\git.exe" -c protocol.version=2 fetch --no-tags --prune --progress --no-recurse-submodules --depth=1 origin +6313cdb15d98cbd7460226e60a6374b7f779ec71:refs/remotes/origin/main
+2026-01-15T19:30:13.1774072Z remote: Enumerating objects: 10195, done.        
+2026-01-15T19:30:13.1775970Z remote: Counting objects:   0% (1/10195)        
+2026-01-15T19:30:13.1777387Z remote: Counting objects:   1% (102/10195)        
+2026-01-15T19:30:13.1779400Z remote: Counting objects:   2% (204/10195)        
+2026-01-15T19:30:13.1780659Z remote: Counting objects:   3% (306/10195)        
+2026-01-15T19:30:13.1781638Z remote: Counting objects:   4% (408/10195)        
+2026-01-15T19:30:13.1782817Z remote: Counting objects:   5% (510/10195)        
+2026-01-15T19:30:13.1783742Z remote: Counting objects:   6% (612/10195)        
+2026-01-15T19:30:13.1784894Z remote: Counting objects:   7% (714/10195)        
+2026-01-15T19:30:13.1785889Z remote: Counting objects:   8% (816/10195)        
+2026-01-15T19:30:13.1786962Z remote: Counting objects:   9% (918/10195)        
+2026-01-15T19:30:13.1818564Z remote: Counting objects:  10% (1020/10195)        
+2026-01-15T19:30:13.1819718Z remote: Counting objects:  11% (1122/10195)        
+2026-01-15T19:30:13.1820669Z remote: Counting objects:  12% (1224/10195)        
+2026-01-15T19:30:13.1821641Z remote: Counting objects:  13% (1326/10195)        
+2026-01-15T19:30:13.1822925Z remote: Counting objects:  14% (1428/10195)        
+2026-01-15T19:30:13.1824444Z remote: Counting objects:  15% (1530/10195)        
+2026-01-15T19:30:13.1825506Z remote: Counting objects:  16% (1632/10195)        
+2026-01-15T19:30:13.1826410Z remote: Counting objects:  17% (1734/10195)        
+2026-01-15T19:30:13.1827185Z remote: Counting objects:  18% (1836/10195)        
+2026-01-15T19:30:13.1827928Z remote: Counting objects:  19% (1938/10195)        
+2026-01-15T19:30:13.1828834Z remote: Counting objects:  20% (2039/10195)        
+2026-01-15T19:30:13.1829792Z remote: Counting objects:  21% (2141/10195)        
+2026-01-15T19:30:13.1830757Z remote: Counting objects:  22% (2243/10195)        
+2026-01-15T19:30:13.1831524Z remote: Counting objects:  23% (2345/10195)        
+2026-01-15T19:30:13.1832320Z remote: Counting objects:  24% (2447/10195)        
+2026-01-15T19:30:13.1833100Z remote: Counting objects:  25% (2549/10195)        
+2026-01-15T19:30:13.1834045Z remote: Counting objects:  26% (2651/10195)        
+2026-01-15T19:30:13.1835405Z remote: Counting objects:  27% (2753/10195)        
+2026-01-15T19:30:13.1836936Z remote: Counting objects:  28% (2855/10195)        
+2026-01-15T19:30:13.1837918Z remote: Counting objects:  29% (2957/10195)        
+2026-01-15T19:30:13.1839514Z remote: Counting objects:  30% (3059/10195)        
+2026-01-15T19:30:13.1840597Z remote: Counting objects:  31% (3161/10195)        
+2026-01-15T19:30:13.1842110Z remote: Counting objects:  32% (3263/10195)        
+2026-01-15T19:30:13.1843674Z remote: Counting objects:  33% (3365/10195)        
+2026-01-15T19:30:13.1844691Z remote: Counting objects:  34% (3467/10195)        
+2026-01-15T19:30:13.1845750Z remote: Counting objects:  35% (3569/10195)        
+2026-01-15T19:30:13.1846535Z remote: Counting objects:  36% (3671/10195)        
+2026-01-15T19:30:13.1847645Z remote: Counting objects:  37% (3773/10195)        
+2026-01-15T19:30:13.1848591Z remote: Counting objects:  38% (3875/10195)        
+2026-01-15T19:30:13.1849660Z remote: Counting objects:  39% (3977/10195)        
+2026-01-15T19:30:13.1850659Z remote: Counting objects:  40% (4078/10195)        
+2026-01-15T19:30:13.1851728Z remote: Counting objects:  41% (4180/10195)        
+2026-01-15T19:30:13.1852693Z remote: Counting objects:  42% (4282/10195)        
+2026-01-15T19:30:13.1853755Z remote: Counting objects:  43% (4384/10195)        
+2026-01-15T19:30:13.1855617Z remote: Counting objects:  44% (4486/10195)        
+2026-01-15T19:30:13.1856472Z remote: Counting objects:  45% (4588/10195)        
+2026-01-15T19:30:13.1857164Z remote: Counting objects:  46% (4690/10195)        
+2026-01-15T19:30:13.1872655Z remote: Counting objects:  47% (4792/10195)        
+2026-01-15T19:30:13.1873548Z remote: Counting objects:  48% (4894/10195)        
+2026-01-15T19:30:13.1874138Z remote: Counting objects:  49% (4996/10195)        
+2026-01-15T19:30:13.1874863Z remote: Counting objects:  50% (5098/10195)        
+2026-01-15T19:30:13.1875438Z remote: Counting objects:  51% (5200/10195)        
+2026-01-15T19:30:13.1876663Z remote: Counting objects:  52% (5302/10195)        
+2026-01-15T19:30:13.1877297Z remote: Counting objects:  53% (5404/10195)        
+2026-01-15T19:30:13.1877950Z remote: Counting objects:  54% (5506/10195)        
+2026-01-15T19:30:13.1878700Z remote: Counting objects:  55% (5608/10195)        
+2026-01-15T19:30:13.1879301Z remote: Counting objects:  56% (5710/10195)        
+2026-01-15T19:30:13.1879914Z remote: Counting objects:  57% (5812/10195)        
+2026-01-15T19:30:13.1880656Z remote: Counting objects:  58% (5914/10195)        
+2026-01-15T19:30:13.1881116Z remote: Counting objects:  59% (6016/10195)        
+2026-01-15T19:30:13.1881665Z remote: Counting objects:  60% (6117/10195)        
+2026-01-15T19:30:13.1882079Z remote: Counting objects:  61% (6219/10195)        
+2026-01-15T19:30:13.1882487Z remote: Counting objects:  62% (6321/10195)        
+2026-01-15T19:30:13.1882902Z remote: Counting objects:  63% (6423/10195)        
+2026-01-15T19:30:13.1883484Z remote: Counting objects:  64% (6525/10195)        
+2026-01-15T19:30:13.1890269Z remote: Counting objects:  65% (6627/10195)        
+2026-01-15T19:30:13.1891270Z remote: Counting objects:  66% (6729/10195)        
+2026-01-15T19:30:13.1892075Z remote: Counting objects:  67% (6831/10195)        
+2026-01-15T19:30:13.1892766Z remote: Counting objects:  68% (6933/10195)        
+2026-01-15T19:30:13.1893444Z remote: Counting objects:  69% (7035/10195)        
+2026-01-15T19:30:13.1894115Z remote: Counting objects:  70% (7137/10195)        
+2026-01-15T19:30:13.1894791Z remote: Counting objects:  71% (7239/10195)        
+2026-01-15T19:30:13.1895466Z remote: Counting objects:  72% (7341/10195)        
+2026-01-15T19:30:13.1896146Z remote: Counting objects:  73% (7443/10195)        
+2026-01-15T19:30:13.1896834Z remote: Counting objects:  74% (7545/10195)        
+2026-01-15T19:30:13.1897560Z remote: Counting objects:  75% (7647/10195)        
+2026-01-15T19:30:13.1898623Z remote: Counting objects:  76% (7749/10195)        
+2026-01-15T19:30:13.1899616Z remote: Counting objects:  77% (7851/10195)        
+2026-01-15T19:30:13.1900326Z remote: Counting objects:  78% (7953/10195)        
+2026-01-15T19:30:13.1901574Z remote: Counting objects:  79% (8055/10195)        
+2026-01-15T19:30:13.1902956Z remote: Counting objects:  80% (8156/10195)        
+2026-01-15T19:30:13.1903977Z remote: Counting objects:  81% (8258/10195)        
+2026-01-15T19:30:13.1904973Z remote: Counting objects:  82% (8360/10195)        
+2026-01-15T19:30:13.1906148Z remote: Counting objects:  83% (8462/10195)        
+2026-01-15T19:30:13.1907279Z remote: Counting objects:  84% (8564/10195)        
+2026-01-15T19:30:13.1908176Z remote: Counting objects:  85% (8666/10195)        
+2026-01-15T19:30:13.1908881Z remote: Counting objects:  86% (8768/10195)        
+2026-01-15T19:30:13.1909287Z remote: Counting objects:  87% (8870/10195)        
+2026-01-15T19:30:13.1909825Z remote: Counting objects:  88% (8972/10195)        
+2026-01-15T19:30:13.1910424Z remote: Counting objects:  89% (9074/10195)        
+2026-01-15T19:30:13.2510203Z remote: Counting objects:  90% (9176/10195)        
+2026-01-15T19:30:13.2511650Z remote: Counting objects:  91% (9278/10195)        
+2026-01-15T19:30:13.2512860Z remote: Counting objects:  92% (9380/10195)        
+2026-01-15T19:30:13.2513592Z remote: Counting objects:  93% (9482/10195)        
+2026-01-15T19:30:13.2514279Z remote: Counting objects:  94% (9584/10195)        
+2026-01-15T19:30:13.2514967Z remote: Counting objects:  95% (9686/10195)        
+2026-01-15T19:30:13.2515745Z remote: Counting objects:  96% (9788/10195)        
+2026-01-15T19:30:13.2516429Z remote: Counting objects:  97% (9890/10195)        
+2026-01-15T19:30:13.2517184Z remote: Counting objects:  98% (9992/10195)        
+2026-01-15T19:30:13.2517902Z remote: Counting objects:  99% (10094/10195)        
+2026-01-15T19:30:13.2518615Z remote: Counting objects: 100% (10195/10195)        
+2026-01-15T19:30:13.2519440Z remote: Counting objects: 100% (10195/10195), done.        
+2026-01-15T19:30:13.2521459Z remote: Compressing objects:   0% (1/8863)        
+2026-01-15T19:30:13.2522185Z remote: Compressing objects:   1% (89/8863)        
+2026-01-15T19:30:13.2522913Z remote: Compressing objects:   2% (178/8863)        
+2026-01-15T19:30:13.2523638Z remote: Compressing objects:   3% (266/8863)        
+2026-01-15T19:30:13.2524348Z remote: Compressing objects:   4% (355/8863)        
+2026-01-15T19:30:13.2525059Z remote: Compressing objects:   5% (444/8863)        
+2026-01-15T19:30:13.2525771Z remote: Compressing objects:   6% (532/8863)        
+2026-01-15T19:30:13.2526514Z remote: Compressing objects:   7% (621/8863)        
+2026-01-15T19:30:13.2527309Z remote: Compressing objects:   8% (710/8863)        
+2026-01-15T19:30:13.2528022Z remote: Compressing objects:   9% (798/8863)        
+2026-01-15T19:30:13.2536898Z remote: Compressing objects:  10% (887/8863)        
+2026-01-15T19:30:13.2537822Z remote: Compressing objects:  11% (975/8863)        
+2026-01-15T19:30:13.2539620Z remote: Compressing objects:  12% (1064/8863)        
+2026-01-15T19:30:13.3177163Z remote: Compressing objects:  13% (1153/8863)        
+2026-01-15T19:30:13.3179547Z remote: Compressing objects:  14% (1241/8863)        
+2026-01-15T19:30:13.3180926Z remote: Compressing objects:  15% (1330/8863)        
+2026-01-15T19:30:13.3182481Z remote: Compressing objects:  16% (1419/8863)        
+2026-01-15T19:30:13.3184106Z remote: Compressing objects:  17% (1507/8863)        
+2026-01-15T19:30:13.3185024Z remote: Compressing objects:  18% (1596/8863)        
+2026-01-15T19:30:13.3185911Z remote: Compressing objects:  19% (1684/8863)        
+2026-01-15T19:30:13.3186789Z remote: Compressing objects:  20% (1773/8863)        
+2026-01-15T19:30:13.3187656Z remote: Compressing objects:  21% (1862/8863)        
+2026-01-15T19:30:13.3188534Z remote: Compressing objects:  22% (1950/8863)        
+2026-01-15T19:30:13.3189409Z remote: Compressing objects:  23% (2039/8863)        
+2026-01-15T19:30:13.3190373Z remote: Compressing objects:  24% (2128/8863)        
+2026-01-15T19:30:13.3191264Z remote: Compressing objects:  25% (2216/8863)        
+2026-01-15T19:30:13.3192140Z remote: Compressing objects:  26% (2305/8863)        
+2026-01-15T19:30:13.3193015Z remote: Compressing objects:  27% (2394/8863)        
+2026-01-15T19:30:13.3193887Z remote: Compressing objects:  28% (2482/8863)        
+2026-01-15T19:30:13.3194762Z remote: Compressing objects:  29% (2571/8863)        
+2026-01-15T19:30:13.3195637Z remote: Compressing objects:  30% (2659/8863)        
+2026-01-15T19:30:13.3974104Z remote: Compressing objects:  31% (2748/8863)        
+2026-01-15T19:30:13.3975616Z remote: Compressing objects:  32% (2837/8863)        
+2026-01-15T19:30:13.3977162Z remote: Compressing objects:  33% (2925/8863)        
+2026-01-15T19:30:13.3978690Z remote: Compressing objects:  34% (3014/8863)        
+2026-01-15T19:30:13.3979770Z remote: Compressing objects:  35% (3103/8863)        
+2026-01-15T19:30:13.3980843Z remote: Compressing objects:  36% (3191/8863)        
+2026-01-15T19:30:13.3981956Z remote: Compressing objects:  37% (3280/8863)        
+2026-01-15T19:30:13.3982724Z remote: Compressing objects:  38% (3368/8863)        
+2026-01-15T19:30:13.3983478Z remote: Compressing objects:  39% (3457/8863)        
+2026-01-15T19:30:13.3984914Z remote: Compressing objects:  40% (3546/8863)        
+2026-01-15T19:30:13.3986395Z remote: Compressing objects:  41% (3634/8863)        
+2026-01-15T19:30:13.3990700Z remote: Compressing objects:  42% (3723/8863)        
+2026-01-15T19:30:13.3991596Z remote: Compressing objects:  43% (3812/8863)        
+2026-01-15T19:30:13.3992405Z remote: Compressing objects:  44% (3900/8863)        
+2026-01-15T19:30:13.3993227Z remote: Compressing objects:  45% (3989/8863)        
+2026-01-15T19:30:13.3993987Z remote: Compressing objects:  46% (4077/8863)        
+2026-01-15T19:30:13.5377266Z remote: Compressing objects:  47% (4166/8863)        
+2026-01-15T19:30:14.6186265Z remote: Compressing objects:  48% (4255/8863)        
+2026-01-15T19:30:14.6187243Z remote: Compressing objects:  48% (4333/8863)        
+2026-01-15T19:30:14.6188129Z remote: Compressing objects:  49% (4343/8863)        
+2026-01-15T19:30:14.6189014Z remote: Compressing objects:  50% (4432/8863)        
+2026-01-15T19:30:14.8404002Z remote: Compressing objects:  51% (4521/8863)        
+2026-01-15T19:30:15.0600262Z remote: Compressing objects:  52% (4609/8863)        
+2026-01-15T19:30:15.2807354Z remote: Compressing objects:  53% (4698/8863)        
+2026-01-15T19:30:15.2809046Z remote: Compressing objects:  54% (4787/8863)        
+2026-01-15T19:30:15.2809868Z remote: Compressing objects:  54% (4862/8863)        
+2026-01-15T19:30:15.5072026Z remote: Compressing objects:  55% (4875/8863)        
+2026-01-15T19:30:15.5073226Z remote: Compressing objects:  56% (4964/8863)        
+2026-01-15T19:30:15.5074344Z remote: Compressing objects:  57% (5052/8863)        
+2026-01-15T19:30:15.7211853Z remote: Compressing objects:  58% (5141/8863)        
+2026-01-15T19:30:15.7213483Z remote: Compressing objects:  59% (5230/8863)        
+2026-01-15T19:30:15.7215047Z remote: Compressing objects:  60% (5318/8863)        
+2026-01-15T19:30:15.7216592Z remote: Compressing objects:  61% (5407/8863)        
+2026-01-15T19:30:15.7217917Z remote: Compressing objects:  62% (5496/8863)        
+2026-01-15T19:30:15.9438880Z remote: Compressing objects:  63% (5584/8863)        
+2026-01-15T19:30:15.9440051Z remote: Compressing objects:  64% (5673/8863)        
+2026-01-15T19:30:15.9450322Z remote: Compressing objects:  65% (5761/8863)        
+2026-01-15T19:30:15.9451439Z remote: Compressing objects:  66% (5850/8863)        
+2026-01-15T19:30:15.9452328Z remote: Compressing objects:  67% (5939/8863)        
+2026-01-15T19:30:15.9453207Z remote: Compressing objects:  68% (6027/8863)        
+2026-01-15T19:30:15.9454081Z remote: Compressing objects:  69% (6116/8863)        
+2026-01-15T19:30:15.9454949Z remote: Compressing objects:  70% (6205/8863)        
+2026-01-15T19:30:15.9455857Z remote: Compressing objects:  71% (6293/8863)        
+2026-01-15T19:30:15.9456728Z remote: Compressing objects:  72% (6382/8863)        
+2026-01-15T19:30:15.9457596Z remote: Compressing objects:  73% (6470/8863)        
+2026-01-15T19:30:15.9458464Z remote: Compressing objects:  74% (6559/8863)        
+2026-01-15T19:30:15.9459331Z remote: Compressing objects:  75% (6648/8863)        
+2026-01-15T19:30:16.0127417Z remote: Compressing objects:  76% (6736/8863)        
+2026-01-15T19:30:16.0128534Z remote: Compressing objects:  77% (6825/8863)        
+2026-01-15T19:30:16.0130111Z remote: Compressing objects:  78% (6914/8863)        
+2026-01-15T19:30:16.0131421Z remote: Compressing objects:  79% (7002/8863)        
+2026-01-15T19:30:16.0132631Z remote: Compressing objects:  80% (7091/8863)        
+2026-01-15T19:30:16.0134148Z remote: Compressing objects:  81% (7180/8863)        
+2026-01-15T19:30:16.0135212Z remote: Compressing objects:  82% (7268/8863)        
+2026-01-15T19:30:16.0136910Z remote: Compressing objects:  83% (7357/8863)        
+2026-01-15T19:30:16.0138703Z remote: Compressing objects:  84% (7445/8863)        
+2026-01-15T19:30:16.0139655Z remote: Compressing objects:  85% (7534/8863)        
+2026-01-15T19:30:16.0140540Z remote: Compressing objects:  86% (7623/8863)        
+2026-01-15T19:30:16.0141565Z remote: Compressing objects:  87% (7711/8863)        
+2026-01-15T19:30:16.0142448Z remote: Compressing objects:  88% (7800/8863)        
+2026-01-15T19:30:16.0143328Z remote: Compressing objects:  89% (7889/8863)        
+2026-01-15T19:30:16.0144208Z remote: Compressing objects:  90% (7977/8863)        
+2026-01-15T19:30:16.0145093Z remote: Compressing objects:  91% (8066/8863)        
+2026-01-15T19:30:16.0145966Z remote: Compressing objects:  92% (8154/8863)        
+2026-01-15T19:30:16.0146835Z remote: Compressing objects:  93% (8243/8863)        
+2026-01-15T19:30:16.0147762Z remote: Compressing objects:  94% (8332/8863)        
+2026-01-15T19:30:16.0149276Z remote: Compressing objects:  95% (8420/8863)        
+2026-01-15T19:30:16.0150228Z remote: Compressing objects:  96% (8509/8863)        
+2026-01-15T19:30:16.0151131Z remote: Compressing objects:  97% (8598/8863)        
+2026-01-15T19:30:16.0152004Z remote: Compressing objects:  98% (8686/8863)        
+2026-01-15T19:30:16.0152867Z remote: Compressing objects:  99% (8775/8863)        
+2026-01-15T19:30:16.0153742Z remote: Compressing objects: 100% (8863/8863)        
+2026-01-15T19:30:16.0154829Z remote: Compressing objects: 100% (8863/8863), done.        
+2026-01-15T19:30:16.5321931Z Receiving objects:   0% (1/10195)
+2026-01-15T19:30:17.0638540Z Receiving objects:   1% (102/10195)
+2026-01-15T19:30:17.0850746Z Receiving objects:   2% (204/10195), 668.00 KiB | 1.01 MiB/s
+2026-01-15T19:30:17.0852553Z Receiving objects:   3% (306/10195), 668.00 KiB | 1.01 MiB/s
+2026-01-15T19:30:18.2602110Z Receiving objects:   3% (312/10195), 668.00 KiB | 1.01 MiB/s
+2026-01-15T19:30:18.5954797Z Receiving objects:   3% (405/10195), 3.46 MiB | 1.58 MiB/s  
+2026-01-15T19:30:18.9565413Z Receiving objects:   4% (408/10195), 3.46 MiB | 1.58 MiB/s
+2026-01-15T19:30:19.2801237Z Receiving objects:   5% (510/10195), 4.05 MiB | 1.50 MiB/s
+2026-01-15T19:30:20.1825089Z Receiving objects:   5% (519/10195), 4.46 MiB | 1.39 MiB/s
+2026-01-15T19:30:20.6906149Z Receiving objects:   5% (541/10195), 4.88 MiB | 1.31 MiB/s
+2026-01-15T19:30:21.0491624Z Receiving objects:   6% (612/10195), 5.24 MiB | 1.24 MiB/s
+2026-01-15T19:30:21.1274165Z Receiving objects:   7% (714/10195), 5.68 MiB | 1.20 MiB/s
+2026-01-15T19:30:21.5822206Z Receiving objects:   7% (726/10195), 5.68 MiB | 1.20 MiB/s
+2026-01-15T19:30:22.2218046Z Receiving objects:   8% (816/10195), 6.15 MiB | 1.19 MiB/s
+2026-01-15T19:30:22.2484832Z Receiving objects:   8% (916/10195), 6.61 MiB | 1.09 MiB/s
+2026-01-15T19:30:23.1687564Z Receiving objects:   9% (918/10195), 6.61 MiB | 1.09 MiB/s
+2026-01-15T19:30:23.2881275Z Receiving objects:   9% (1019/10195), 7.72 MiB | 955.00 KiB/s
+2026-01-15T19:30:24.0996370Z Receiving objects:  10% (1020/10195), 7.72 MiB | 955.00 KiB/s
+2026-01-15T19:30:24.1869369Z Receiving objects:  11% (1122/10195), 8.76 MiB | 956.00 KiB/s
+2026-01-15T19:30:25.4157688Z Receiving objects:  11% (1130/10195), 8.76 MiB | 956.00 KiB/s
+2026-01-15T19:30:26.1979038Z Receiving objects:  11% (1133/10195), 10.49 MiB | 1.05 MiB/s 
+2026-01-15T19:30:27.1732660Z Receiving objects:  11% (1135/10195), 10.93 MiB | 1.03 MiB/s
+2026-01-15T19:30:27.9085612Z Receiving objects:  11% (1169/10195), 11.48 MiB | 955.00 KiB/s
+2026-01-15T19:30:28.1535785Z Receiving objects:  12% (1224/10195), 11.82 MiB | 901.00 KiB/s
+2026-01-15T19:30:28.2905766Z Receiving objects:  12% (1280/10195), 12.16 MiB | 889.00 KiB/s
+2026-01-15T19:30:28.5981083Z Receiving objects:  13% (1326/10195), 12.16 MiB | 889.00 KiB/s
+2026-01-15T19:30:29.1010799Z Receiving objects:  14% (1428/10195), 12.52 MiB | 837.00 KiB/s
+2026-01-15T19:30:29.1772965Z Receiving objects:  15% (1530/10195), 12.85 MiB | 789.00 KiB/s
+2026-01-15T19:30:29.5008258Z Receiving objects:  15% (1559/10195), 12.85 MiB | 789.00 KiB/s
+2026-01-15T19:30:29.9533261Z Receiving objects:  16% (1632/10195), 12.85 MiB | 789.00 KiB/s
+2026-01-15T19:30:30.1688378Z Receiving objects:  17% (1734/10195), 13.25 MiB | 728.00 KiB/s
+2026-01-15T19:30:30.2317388Z Receiving objects:  17% (1792/10195), 13.69 MiB | 712.00 KiB/s
+2026-01-15T19:30:30.2628388Z Receiving objects:  18% (1836/10195), 13.69 MiB | 712.00 KiB/s
+2026-01-15T19:30:30.2876312Z Receiving objects:  19% (1938/10195), 13.69 MiB | 712.00 KiB/s
+2026-01-15T19:30:30.3304042Z Receiving objects:  20% (2039/10195), 13.69 MiB | 712.00 KiB/s
+2026-01-15T19:30:30.3831846Z Receiving objects:  21% (2141/10195), 13.69 MiB | 712.00 KiB/s
+2026-01-15T19:30:30.4434123Z Receiving objects:  22% (2243/10195), 13.69 MiB | 712.00 KiB/s
+2026-01-15T19:30:30.4600721Z Receiving objects:  23% (2345/10195), 13.69 MiB | 712.00 KiB/s
+2026-01-15T19:30:30.5498450Z Receiving objects:  24% (2447/10195), 13.69 MiB | 712.00 KiB/s
+2026-01-15T19:30:30.6101865Z Receiving objects:  25% (2549/10195), 14.18 MiB | 727.00 KiB/s
+2026-01-15T19:30:30.6763519Z Receiving objects:  26% (2651/10195), 14.18 MiB | 727.00 KiB/s
+2026-01-15T19:30:30.7273939Z Receiving objects:  27% (2753/10195), 14.18 MiB | 727.00 KiB/s
+2026-01-15T19:30:30.8562562Z Receiving objects:  28% (2855/10195), 14.18 MiB | 727.00 KiB/s
+2026-01-15T19:30:30.8614253Z Receiving objects:  29% (2957/10195), 14.18 MiB | 727.00 KiB/s
+2026-01-15T19:30:30.9055501Z Receiving objects:  30% (3059/10195), 14.18 MiB | 727.00 KiB/s
+2026-01-15T19:30:30.9615701Z Receiving objects:  31% (3161/10195), 14.18 MiB | 727.00 KiB/s
+2026-01-15T19:30:31.0054487Z Receiving objects:  32% (3263/10195), 14.18 MiB | 727.00 KiB/s
+2026-01-15T19:30:31.0513456Z Receiving objects:  33% (3365/10195), 14.18 MiB | 727.00 KiB/s
+2026-01-15T19:30:31.1365000Z Receiving objects:  34% (3467/10195), 14.62 MiB | 766.00 KiB/s
+2026-01-15T19:30:31.2148561Z Receiving objects:  35% (3569/10195), 14.62 MiB | 766.00 KiB/s
+2026-01-15T19:30:31.2188054Z Receiving objects:  35% (3669/10195), 14.62 MiB | 766.00 KiB/s
+2026-01-15T19:30:31.6175246Z Receiving objects:  36% (3671/10195), 14.62 MiB | 766.00 KiB/s
+2026-01-15T19:30:31.9550996Z Receiving objects:  37% (3773/10195), 15.12 MiB | 815.00 KiB/s
+2026-01-15T19:30:32.1867918Z Receiving objects:  38% (3875/10195), 15.12 MiB | 815.00 KiB/s
+2026-01-15T19:30:32.2309860Z Receiving objects:  38% (3944/10195), 15.58 MiB | 843.00 KiB/s
+2026-01-15T19:30:32.4599481Z Receiving objects:  39% (3977/10195), 15.58 MiB | 843.00 KiB/s
+2026-01-15T19:30:32.9011858Z Receiving objects:  40% (4078/10195), 15.58 MiB | 843.00 KiB/s
+2026-01-15T19:30:33.1454985Z Receiving objects:  41% (4180/10195), 16.06 MiB | 854.00 KiB/s
+2026-01-15T19:30:33.1810370Z Receiving objects:  42% (4282/10195), 16.06 MiB | 854.00 KiB/s
+2026-01-15T19:30:33.3463613Z Receiving objects:  42% (4298/10195), 16.60 MiB | 891.00 KiB/s
+2026-01-15T19:30:33.5817059Z Receiving objects:  43% (4384/10195), 16.60 MiB | 891.00 KiB/s
+2026-01-15T19:30:33.7758779Z Receiving objects:  44% (4486/10195), 16.60 MiB | 891.00 KiB/s
+2026-01-15T19:30:34.1967716Z Receiving objects:  45% (4588/10195), 17.18 MiB | 948.00 KiB/s
+2026-01-15T19:30:34.3693511Z Receiving objects:  45% (4640/10195), 17.69 MiB | 974.00 KiB/s
+2026-01-15T19:30:34.7218208Z Receiving objects:  46% (4690/10195), 17.69 MiB | 974.00 KiB/s
+2026-01-15T19:30:35.0959680Z Receiving objects:  47% (4792/10195), 18.25 MiB | 996.00 KiB/s
+2026-01-15T19:30:35.1851993Z Receiving objects:  48% (4894/10195), 18.25 MiB | 996.00 KiB/s
+2026-01-15T19:30:35.4191754Z Receiving objects:  48% (4899/10195), 18.25 MiB | 996.00 KiB/s
+2026-01-15T19:30:35.7413889Z Receiving objects:  49% (4996/10195), 18.82 MiB | 1004.00 KiB/s
+2026-01-15T19:30:35.9166358Z Receiving objects:  50% (5098/10195), 18.82 MiB | 1004.00 KiB/s
+2026-01-15T19:30:36.1240707Z Receiving objects:  51% (5200/10195), 19.36 MiB | 1020.00 KiB/s
+2026-01-15T19:30:36.1979445Z Receiving objects:  52% (5302/10195), 19.36 MiB | 1020.00 KiB/s
+2026-01-15T19:30:36.4487595Z Receiving objects:  52% (5342/10195), 19.36 MiB | 1020.00 KiB/s
+2026-01-15T19:30:36.7492170Z Receiving objects:  53% (5404/10195), 19.94 MiB | 1.01 MiB/s   
+2026-01-15T19:30:37.2263575Z Receiving objects:  54% (5506/10195), 19.94 MiB | 1.01 MiB/s
+2026-01-15T19:30:37.3171167Z Receiving objects:  54% (5561/10195), 20.54 MiB | 1.04 MiB/s
+2026-01-15T19:30:37.6070068Z Receiving objects:  55% (5608/10195), 20.54 MiB | 1.04 MiB/s
+2026-01-15T19:30:38.0097647Z Receiving objects:  56% (5710/10195), 21.17 MiB | 1.09 MiB/s
+2026-01-15T19:30:38.2539627Z Receiving objects:  57% (5812/10195), 21.87 MiB | 1.13 MiB/s
+2026-01-15T19:30:38.4431662Z Receiving objects:  57% (5862/10195), 21.87 MiB | 1.13 MiB/s
+2026-01-15T19:30:38.8027496Z Receiving objects:  58% (5914/10195), 22.54 MiB | 1.15 MiB/s
+2026-01-15T19:30:39.0511008Z Receiving objects:  59% (6016/10195), 22.54 MiB | 1.15 MiB/s
+2026-01-15T19:30:39.2100311Z Receiving objects:  60% (6117/10195), 23.20 MiB | 1.18 MiB/s
+2026-01-15T19:30:39.2401213Z Receiving objects:  61% (6219/10195), 23.20 MiB | 1.18 MiB/s
+2026-01-15T19:30:40.4307520Z Receiving objects:  61% (6303/10195), 23.20 MiB | 1.18 MiB/s
+2026-01-15T19:30:41.4249347Z Receiving objects:  61% (6311/10195), 25.12 MiB | 1.24 MiB/s
+2026-01-15T19:30:41.4476269Z Receiving objects:  61% (6312/10195), 25.76 MiB | 1.25 MiB/s
+2026-01-15T19:30:41.6185008Z Receiving objects:  62% (6321/10195), 25.76 MiB | 1.25 MiB/s
+2026-01-15T19:30:41.9349348Z Receiving objects:  63% (6423/10195), 26.45 MiB | 1.27 MiB/s
+2026-01-15T19:30:42.5126503Z Receiving objects:  64% (6525/10195), 26.45 MiB | 1.27 MiB/s
+2026-01-15T19:30:43.4211620Z Receiving objects:  64% (6540/10195), 27.73 MiB | 1.26 MiB/s
+2026-01-15T19:30:43.5915708Z Receiving objects:  64% (6553/10195), 27.89 MiB | 1.15 MiB/s
+2026-01-15T19:30:43.8354164Z Receiving objects:  65% (6627/10195), 28.61 MiB | 1.15 MiB/s
+2026-01-15T19:30:44.0794304Z Receiving objects:  66% (6729/10195), 28.61 MiB | 1.15 MiB/s
+2026-01-15T19:30:44.2651963Z Receiving objects:  67% (6831/10195), 29.22 MiB | 1.17 MiB/s
+2026-01-15T19:30:44.3145144Z Receiving objects:  68% (6933/10195), 29.22 MiB | 1.17 MiB/s
+2026-01-15T19:30:45.2509166Z Receiving objects:  68% (6950/10195), 29.22 MiB | 1.17 MiB/s
+2026-01-15T19:30:45.4590417Z Receiving objects:  69% (7035/10195), 29.82 MiB | 998.00 KiB/s
+2026-01-15T19:30:45.5638200Z Receiving objects:  69% (7058/10195), 29.82 MiB | 998.00 KiB/s
+2026-01-15T19:30:45.7973511Z Receiving objects:  70% (7137/10195), 29.82 MiB | 998.00 KiB/s
+2026-01-15T19:30:46.1144349Z Receiving objects:  71% (7239/10195), 30.20 MiB | 947.00 KiB/s
+2026-01-15T19:30:46.2446554Z Receiving objects:  72% (7341/10195), 30.20 MiB | 947.00 KiB/s
+2026-01-15T19:30:46.3334395Z Receiving objects:  73% (7443/10195), 30.20 MiB | 947.00 KiB/s
+2026-01-15T19:30:46.5553761Z Receiving objects:  73% (7492/10195), 30.99 MiB | 973.00 KiB/s
+2026-01-15T19:30:46.8750874Z Receiving objects:  74% (7545/10195), 30.99 MiB | 973.00 KiB/s
+2026-01-15T19:30:47.0129872Z Receiving objects:  75% (7647/10195), 31.88 MiB | 1.00 MiB/s  
+2026-01-15T19:30:47.2998146Z Receiving objects:  76% (7749/10195), 31.88 MiB | 1.00 MiB/s
+2026-01-15T19:30:47.3434597Z Receiving objects:  77% (7851/10195), 32.86 MiB | 1.08 MiB/s
+2026-01-15T19:30:47.3917711Z Receiving objects:  77% (7866/10195), 32.86 MiB | 1.08 MiB/s
+2026-01-15T19:30:47.5026087Z Receiving objects:  78% (7953/10195), 32.86 MiB | 1.08 MiB/s
+2026-01-15T19:30:47.9248825Z Receiving objects:  79% (8055/10195), 32.86 MiB | 1.08 MiB/s
+2026-01-15T19:30:48.2627456Z Receiving objects:  80% (8156/10195), 33.58 MiB | 1.20 MiB/s
+2026-01-15T19:30:48.3533727Z Receiving objects:  81% (8258/10195), 33.58 MiB | 1.20 MiB/s
+2026-01-15T19:30:48.9045108Z Receiving objects:  81% (8267/10195), 34.32 MiB | 1.20 MiB/s
+2026-01-15T19:30:49.0661288Z Receiving objects:  82% (8360/10195), 35.11 MiB | 1.22 MiB/s
+2026-01-15T19:30:49.2628721Z Receiving objects:  83% (8462/10195), 35.11 MiB | 1.22 MiB/s
+2026-01-15T19:30:49.3493518Z Receiving objects:  84% (8564/10195), 35.11 MiB | 1.22 MiB/s
+2026-01-15T19:30:49.3945763Z Receiving objects:  84% (8623/10195), 35.11 MiB | 1.22 MiB/s
+2026-01-15T19:30:49.8824536Z Receiving objects:  85% (8666/10195), 35.91 MiB | 1.28 MiB/s
+2026-01-15T19:30:50.1082674Z Receiving objects:  86% (8768/10195), 35.91 MiB | 1.28 MiB/s
+2026-01-15T19:30:50.4163028Z Receiving objects:  87% (8870/10195), 36.72 MiB | 1.49 MiB/s
+2026-01-15T19:30:50.5666013Z Receiving objects:  87% (8877/10195), 37.44 MiB | 1.55 MiB/s
+2026-01-15T19:30:50.6610218Z Receiving objects:  88% (8972/10195), 37.44 MiB | 1.55 MiB/s
+2026-01-15T19:30:50.8353919Z Receiving objects:  89% (9074/10195), 37.44 MiB | 1.55 MiB/s
+2026-01-15T19:30:50.9301589Z Receiving objects:  90% (9176/10195), 37.44 MiB | 1.55 MiB/s
+2026-01-15T19:30:51.0839211Z Receiving objects:  91% (9278/10195), 38.20 MiB | 1.55 MiB/s
+2026-01-15T19:30:51.1021649Z Receiving objects:  92% (9380/10195), 38.20 MiB | 1.55 MiB/s
+2026-01-15T19:30:51.1957027Z Receiving object
